@@ -1,0 +1,10 @@
+# Barley Hair Transplant - Robots.txt
+# https://www.barleyhair.com
+
+User-agent: *
+Allow: /
+
+# Disallow backup and sensitive files
+Disallow: /wp-login.php
+# Sitemap location
+Sitemap: https://www.barleyhair.com/sitemap.xml
