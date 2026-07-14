@@ -1,0 +1,903 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hair Transplant Reviews - Patient Testimonials &amp; Ratings | Barley Hair Transplant</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="description" content="Read hair transplant reviews and patient testimonials. See why thousands choose Barley for their hair restoration journey.">
+    <meta name="keywords" content="hair transplant reviews, patient testimonials, hair restoration reviews, barley reviews">
+    <link rel="canonical" href="https://www.barleyhair.com/hair-transplant-reviews/">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="Barley Microneedle Hair Transplant Hospital">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Hair Transplant Reviews - Patient Testimonials">
+    <meta property="og:description" content="Read hair transplant reviews and patient testimonials from Barley patients.">
+    <meta property="og:image" content="https://www.barleyhair.com/manBald/manBald-2.jpg">
+    <meta property="og:site_name" content="Barley Hair Transplant Hospital">
+    <link rel="stylesheet" href="../oldcss/style.css">
+    <style>
+        /* Reviews Page - Trust &amp; Rating Theme */
+        .rating-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-top: 50px;
+        }
+        .rating-card {
+            text-align: center;
+            padding: 50px 30px;
+            background: linear-gradient(180deg, #fff 0%, #fafbfd 100%);
+            border-radius: 24px;
+            border: 2px solid #e8eef5;
+            box-shadow: 0 8px 28px rgba(22,64,132,0.1), 0 3px 8px rgba(0,0,0,0.06);
+            transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), box-shadow 0.4s cubic-bezier(0.4,0,0.2,1);
+            position: relative;
+            overflow: hidden;
+        }
+        .rating-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 4px;
+            background: linear-gradient(90deg, #164084 0%, #4a90e2 50%, #164084 100%);
+        }
+        .rating-card:hover {
+            transform: translateY(-12px) scale(1.03);
+            box-shadow: 0 30px 60px rgba(22,64,132,0.2), 0 15px 30px rgba(0,0,0,0.1);
+            border-color: #4a90e2;
+        }
+        .rating-icon {
+            font-size: 80px;
+            margin-bottom: 28px;
+            color: #164084;
+            text-shadow: 0 4px 12px rgba(22,64,132,0.2);
+            animation: pulse 2s ease-in-out infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
+        }
+        .rating-stars {
+            font-size: 36px;
+            margin-bottom: 18px;
+            letter-spacing: 4px;
+        }
+        .rating-platform {
+            font-size: 26px;
+            color: #112341;
+            margin-bottom: 12px;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+        .rating-score {
+            font-size: 42px;
+            font-weight: 700;
+            color: #164084;
+            margin-bottom: 12px;
+            text-shadow: 0 2px 4px rgba(22,64,132,0.15);
+        }
+        .rating-count {
+            color: #666;
+            font-size: 16px;
+            margin-top: 0;
+            font-weight: 500;
+        }
+        .stat-number sup {
+            font-size: 28px;
+        }
+        .testimonial-rating {
+            color: #ffd700;
+            font-size: 20px;
+            margin-bottom: 18px;
+            letter-spacing: 2px;
+            text-shadow: 0 2px 4px rgba(255,215,0,0.3);
+        }
+        .testimonial-meta {
+            color: #96BEFF;
+            font-size: 14px;
+            margin-top: 8px;
+            font-weight: 500;
+        }
+        .section-title-white {
+            color: #fff;
+        }
+        .section-subtitle-light {
+            color: #96BEFF;
+        }
+        /* Story Journey Cards - Reviews themed */
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 40px;
+        }
+        .story-card {
+            background: #fff;
+            border-radius: 24px;
+            overflow: hidden;
+            box-shadow: 0 8px 28px rgba(22,64,132,0.1), 0 3px 8px rgba(0,0,0,0.06);
+            transition: transform 0.4s cubic-bezier(0.4,0,0.2,1), box-shadow 0.4s cubic-bezier(0.4,0,0.2,1);
+            display: flex;
+            flex-direction: column;
+        }
+        .story-card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 28px 56px rgba(22,64,132,0.18), 0 14px 28px rgba(0,0,0,0.08);
+        }
+        .story-banner {
+            background: linear-gradient(135deg, #164084 0%, #2a5a9e 40%, #0a1628 100%);
+            padding: 32px;
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            position: relative;
+            overflow: hidden;
+        }
+        .story-banner::before {
+            content: '';
+            position: absolute;
+            top: -35%;
+            right: -12%;
+            width: 180px;
+            height: 180px;
+            background: radial-gradient(circle, rgba(74,144,226,0.2) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        .story-banner::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 3px;
+            background: linear-gradient(90deg, #4a90e2 0%, #6ab0ff 50%, #4a90e2 100%);
+        }
+        .story-avatar {
+            width: 85px;
+            height: 85px;
+            background: rgba(74,144,226,0.18);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 44px;
+            flex-shrink: 0;
+            border: 3px solid rgba(74,144,226,0.4);
+            box-shadow: 0 6px 18px rgba(0,0,0,0.25), inset 0 2px 6px rgba(255,255,255,0.15);
+        }
+        .story-banner-text h3 {
+            font-size: 22px;
+            color: #fff;
+            margin: 0 0 8px;
+            text-shadow: 0 2px 4px rgba(0,0,0,0.3);
+            font-weight: 700;
+        }
+        .story-banner-text .story-location {
+            font-size: 14px;
+            color: #96BEFF;
+            margin: 0;
+            font-weight: 500;
+        }
+        .story-body {
+            padding: 32px;
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+        }
+        .story-body p {
+            font-size: 16px;
+            line-height: 1.75;
+            color: #555;
+            margin: 0 0 28px;
+            flex: 1;
+        }
+        .story-milestones {
+            display: flex;
+            gap: 0;
+            border-top: 2px solid #e8eef5;
+            padding-top: 24px;
+            background: linear-gradient(180deg, #fafbfd 0%, #fff 100%);
+            margin: 0 -32px -32px;
+            padding: 24px 32px 28px;
+        }
+        .milestone {
+            flex: 1;
+            text-align: center;
+            position: relative;
+        }
+        .milestone:not(:last-child)::after {
+            content: '';
+            position: absolute;
+            right: 0;
+            top: 8px;
+            bottom: 8px;
+            width: 2px;
+            background: linear-gradient(180deg, transparent 0%, #e8eef5 50%, transparent 100%);
+        }
+        .milestone-value {
+            font-size: 24px;
+            font-weight: 700;
+            color: #164084;
+            display: block;
+            margin-bottom: 6px;
+            text-shadow: 0 1px 2px rgba(22,64,132,0.15);
+        }
+        .milestone-label {
+            font-size: 11px;
+            color: #888;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            font-weight: 600;
+        }
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .rating-grid { grid-template-columns: repeat(2, 1fr); }
+            .stories-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 768px) {
+            .rating-grid { grid-template-columns: 1fr; }
+            .stories-grid { grid-template-columns: 1fr; }
+            .contact-three-column { grid-template-columns: 1fr !important; }
+        }
+        .contact-form input:focus, .contact-form select:focus, .contact-form textarea:focus {
+            outline: none;
+            border-color: #164084;
+            box-shadow: 0 0 0 3px rgba(22,64,132,0.12);
+        }
+        /* Contact Items */
+        .contact-items {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            margin-top: 50px;
+        }
+        .contact-box {
+            background: #164084;
+            border-radius: 12px;
+            padding: 25px;
+            text-align: center;
+            cursor: pointer;
+            aspect-ratio: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .contact-box-icon {
+            margin-bottom: 15px;
+        }
+        .contact-box-icon i {
+            font-size: 56px;
+            color: #fff;
+        }
+        .contact-box-content h4 {
+            font-size: 22px;
+            color: #fff;
+            margin: 0 0 8px 0;
+            font-weight: 600;
+        }
+        .contact-box-content p {
+            font-size: 18px;
+            color: rgba(255,255,255,0.85);
+            margin: 0;
+        }
+        .contact-box.qrcode-box {
+            cursor: default;
+        }
+        .contact-box.qrcode-box img {
+            width: 85%;
+            max-width: 180px;
+            height: auto;
+            border-radius: 8px;
+        }
+        @media (max-width: 768px) {
+            .contact-items { grid-template-columns: repeat(2, 1fr); }
+            .mobile-grid-4 { grid-template-columns: repeat(2, 1fr) !important; }
+        }
+        @media (max-width: 480px) {
+            .mobile-grid-4 { grid-template-columns: 1fr !important; }
+        }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": "Barley Microneedle Hair Transplant Hospital",
+  "url": "https://www.barleyhair.com",
+  "logo": "https://www.barleyhair.com/images/logo.png",
+  "description": "Established hair transplant hospital with 31 branches across China, specializing in microneedle hair transplant technology.",
+  "medicalSpecialty": "Dermatologic",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "23000",
+    "bestRating": "5"
+  },
+  "availableService": [
+    {
+      "@type": "MedicalProcedure",
+      "name": "Hair Transplant",
+      "description": "Advanced microneedle hair transplant procedure with natural results"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Beard Transplant",
+      "description": "Natural beard restoration with microneedle technology"
+    },
+    {
+      "@type": "MedicalProcedure",
+      "name": "Eyebrow Transplant",
+      "description": "Precision eyebrow restoration for natural-looking brows"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.barleyhair.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Hair Transplant Reviews",
+      "item": "https://www.barleyhair.com/hair-transplant-reviews/"
+    }
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "MedicalOrganization",
+    "name": "Barley Microneedle Hair Transplant Hospital"
+  },
+  "reviewAspect": "Hair Transplant Experience",
+  "author": {
+    "@type": "Person",
+    "name": "Liam Thompson"
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "5",
+    "bestRating": "5"
+  },
+  "reviewBody": "I decided to consult Barley experts and they were really keen on helping me. I went for a hair transplant procedure with the confidence that I was in good hands. Barley didn't disappoint! Everything went smoothly because from consultation to surgery and post-surgery, they made sure I was prepared and satisfied."
+}
+</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="Barley Hair Transplant Hospital">
+                </a>
+                <span class="logo-text">Barley Hair Transplant</span>
+            </div>
+            <nav class="main-nav">
+                <a href="../index.html">Home</a>
+                <a href="../about-us/">About Us</a>
+                <a href="../services/">Services</a>
+                <a href="../technology/">Technology</a>
+                <a href="../doctors/">Doctors</a>
+                <a href="../results/">Results</a>
+                <a href="../faq/">FAQ</a>
+                <a href="../contact-us/">Contact Us</a>
+            </nav>
+            <div class="menu-toggle" onclick="this.parentElement.querySelector('.main-nav').classList.toggle('active')">
+                Menu
+            </div>
+        </div>
+    </div>
+</header>
+
+<section class="hero-section">
+    <div class="hero-bg">
+        <img src="../Banner/hero-3.jpg" alt="Hair Transplant Reviews - Patient Testimonials">
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <h1>50,000+ Happy Patients. 4.9/5 Star Rating.</h1>
+            <p>Real reviews from real patients who transformed their lives with Barley Microneedle Hair Transplant. See why we're the trusted choice worldwide.</p>
+            <div class="hero-buttons">
+                <a href="../contact-us/" class="btn btn-primary btn-large">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stats-section">
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">4.9<sup>/5</sup></div>
+                <div class="stat-label">Overall Rating</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">50,000+</div>
+                <div class="stat-label">Satisfied Patients</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">98%</div>
+                <div class="stat-label">Would Recommend</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">24+</div>
+                <div class="stat-label">Years Experience</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-title">Rated Excellent By Patients Worldwide</h2>
+        <p class="section-subtitle">We're proud to have helped thousands of patients regain their confidence. Here's what they have to say about their Barley experience.</p>
+
+        <div class="rating-grid">
+            <div class="rating-card">
+                <div class="rating-icon">⭐</div>
+                <h3 class="rating-platform">Google Reviews</h3>
+                <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                <p class="rating-score">4.9/5</p>
+                <p class="rating-count">10,000+ Reviews</p>
+            </div>
+            <div class="rating-card">
+                <div class="rating-icon">⭐</div>
+                <h3 class="rating-platform">RealSelf</h3>
+                <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                <p class="rating-score">4.8/5</p>
+                <p class="rating-count">5,000+ Reviews</p>
+            </div>
+            <div class="rating-card">
+                <div class="rating-icon">⭐</div>
+                <h3 class="rating-platform">Trustpilot</h3>
+                <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                <p class="rating-score">4.9/5</p>
+                <p class="rating-count">8,000+ Reviews</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials-section" id="testimonials">
+    <div class="container">
+        <h2 class="section-title section-title-white">What Our Patients Say</h2>
+        <p class="section-subtitle section-subtitle-light">Real stories from real patients who trusted Barley with their hair restoration journey.</p>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"I was facing severe hair loss and receding hairline for a while and someone recommended I go for a hair transplant procedure. I had no idea what it was and did some research. I decided to consult Barley experts and they were really keen on helping me. I went for a hair transplant procedure with the confidence that I was in good hands. Barley didn't disappoint! Everything went smoothly because from consultation to surgery and post-surgery, they made sure I was prepared and satisfied. Highly recommend Barley as they truly care about their clients and their practice."</p>
+                <p class="testimonial-author">— Liam Thompson</p>
+                <p class="testimonial-meta">🇺🇸 United States | 3,200 Grafts | Hair Transplant</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"I went to Barley for my hair transplant procedure because they are quite renowned in China. Happy to say it was a great decision. My hair started regenerating and now I look completely different. The results are what I was looking for. The staff was highly professional and caring throughout the entire process."</p>
+                <p class="testimonial-author">— Hank Mitchell</p>
+                <p class="testimonial-meta">🇬🇧 United Kingdom | 2,800 Grafts | Hair Transplant</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"I was worried hair transplant would leave scars or will not yield the kind of results I had in mind. To my surprise, the microneedle procedure subdued any concerns I had. The change is beyond what I expected. Go for a microneedle hair transplant if you want natural-looking hair."</p>
+                <p class="testimonial-author">— Jacob Chen</p>
+                <p class="testimonial-meta">🇨🇦 Canada | 2,500 Grafts | Microneedle FUE</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"The first time I went to Barley for a beard transplant that completely changed my look. I was happy to see the results so I decided to opt for Barley again for a hair transplant. For someone like me with little hair on top of my head and beard, a Microneedle session was the most suitable solution and doctors recommended it. I had a fantastic time both times. I cannot recommend them highly enough."</p>
+                <p class="testimonial-author">— Steven Rodriguez</p>
+                <p class="testimonial-meta">🇲🇽 Mexico | 4,000 Grafts | Hair + Beard</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"My hair started to fall from the sides and top of my head and I lost hope of regaining hair. I was not convinced to opt for any available options but Barley's Microneedle procedure appealed to me. I read they could cover a lot of area in a single session and Microneedle resulted in natural-looking hair restoration. The microneedle session was long but worth every second."</p>
+                <p class="testimonial-author">— Nate Lee</p>
+                <p class="testimonial-meta">🇰🇷 South Korea | 3,500 Grafts | Full Restoration</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Needed a fuller brow and cover a scar I had after a small incident. Went to Barley and got it covered with simple scar treatment. There is no scar visible and I have nice and dense brows. Great decision. The doctors were so precise and the results are truly excellent."</p>
+                <p class="testimonial-author">— Bree Williams</p>
+                <p class="testimonial-meta">🇦🇺 Australia | 200 Grafts | Eyebrow + Scar</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Thumbs up to their team for delicately covering the scar on my head that affected my self-esteem. It feels like I never had it all because doctors covered it so well that it looks natural. Thank you again for your work. The entire team was professional and caring."</p>
+                <p class="testimonial-author">— Matt Anderson</p>
+                <p class="testimonial-meta">🇳🇿 New Zealand | 1,500 Grafts | Scar Repair</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"My eyebrows were non-existent thanks to over plucking. A single procedure changed all that now can flaunt full brows all because of Barley. I wake up every morning with well-shaped brows and it saves me so much time in my makeup routine."</p>
+                <p class="testimonial-author">— Stephanie Taylor</p>
+                <p class="testimonial-meta">🇺🇸 United States | 300 Grafts | Eyebrow Transplant</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Overall my experience was great. Thank you Barley for changing my look and giving my confidence back. The level of care and attention to detail is unmatched. I've already recommended you to several of my friends who were also struggling with hair loss."</p>
+                <p class="testimonial-author">— Alex Johnson</p>
+                <p class="testimonial-meta">🇩🇪 Germany | 2,200 Grafts | Hairline Restoration</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section style="padding: 80px 0; background: #fff;">
+    <div class="container">
+        <h2 class="section-title">Why Patients Trust Barley for Hair Restoration</h2>
+        <p class="section-subtitle">With over 24 years of experience and 50,000+ successful procedures, here's what sets Barley apart from other hair transplant clinics.</p>
+        <div class="mobile-grid-4" style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 30px; margin-top: 50px;">
+            <div style="text-align: center; padding: 30px 20px; background: linear-gradient(180deg, #f0f4fa 0%, #fff 100%); border-radius: 16px; border: 1px solid #e8eef5;">
+                <div style="font-size: 48px; margin-bottom: 15px;">🔬</div>
+                <h3 style="font-size: 18px; color: #112341; margin-bottom: 10px;">Patented Technology</h3>
+                <p style="font-size: 14px; color: #666; line-height: 1.6;">14 national patents in microneedle technology ensure the highest graft survival rate and most natural results.</p>
+            </div>
+            <div style="text-align: center; padding: 30px 20px; background: linear-gradient(180deg, #f0f4fa 0%, #fff 100%); border-radius: 16px; border: 1px solid #e8eef5;">
+                <div style="font-size: 48px; margin-bottom: 15px;">🌍</div>
+                <h3 style="font-size: 18px; color: #112341; margin-bottom: 10px;">Global Patient Base</h3>
+                <p style="font-size: 14px; color: #666; line-height: 1.6;">Patients from 50+ countries trust Barley. We offer English-speaking staff, airport pickup, and hotel accommodation.</p>
+            </div>
+            <div style="text-align: center; padding: 30px 20px; background: linear-gradient(180deg, #f0f4fa 0%, #fff 100%); border-radius: 16px; border: 1px solid #e8eef5;">
+                <div style="font-size: 48px; margin-bottom: 15px;">💰</div>
+                <h3 style="font-size: 18px; color: #112341; margin-bottom: 10px;">Transparent Pricing</h3>
+                <p style="font-size: 14px; color: #666; line-height: 1.6;">No hidden fees. Get a detailed cost breakdown during your free consultation with clear, upfront pricing.</p>
+            </div>
+            <div style="text-align: center; padding: 30px 20px; background: linear-gradient(180deg, #f0f4fa 0%, #fff 100%); border-radius: 16px; border: 1px solid #e8eef5;">
+                <div style="font-size: 48px; margin-bottom: 15px;">📞</div>
+                <h3 style="font-size: 18px; color: #112341; margin-bottom: 10px;">Lifetime Aftercare</h3>
+                <p style="font-size: 14px; color: #666; line-height: 1.6;">Our relationship doesn't end after surgery. We provide comprehensive post-operative care and follow-up support.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="stories-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Patient Journey Stories</h2>
+            <p class="section-subtitle">Follow the inspiring transformation journeys of our patients from their first consultation to their final results.</p>
+        </div>
+        
+        <div class="stories-grid">
+            <div class="story-card">
+                <div class="story-banner">
+                    <div class="story-avatar">👨‍💼</div>
+                    <div class="story-banner-text">
+                        <h3>Mark's 12-Month Journey</h3>
+                        <p class="story-location">🇺🇸 San Francisco, USA</p>
+                    </div>
+                </div>
+                <div class="story-body">
+                    <p>38-year-old software engineer struggled with aggressive hair loss. After researching dozens of clinics, he chose Barley for our advanced microneedle technology.</p>
+                    <div class="story-milestones">
+                        <div class="milestone"><span class="milestone-value">4,500</span><span class="milestone-label">Grafts</span></div>
+                        <div class="milestone"><span class="milestone-value">12</span><span class="milestone-label">Months</span></div>
+                        <div class="milestone"><span class="milestone-value">98%</span><span class="milestone-label">Growth</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-banner">
+                    <div class="story-avatar">👨‍🦱</div>
+                    <div class="story-banner-text">
+                        <h3>James' Crown Restoration</h3>
+                        <p class="story-location">🇬🇧 London, UK</p>
+                    </div>
+                </div>
+                <div class="story-body">
+                    <p>45-year-old tried every hair loss product with minimal results. Our team designed a comprehensive 3,800 graft treatment plan addressing his receding hairline and thinning crown.</p>
+                    <div class="story-milestones">
+                        <div class="milestone"><span class="milestone-value">3,800</span><span class="milestone-label">Grafts</span></div>
+                        <div class="milestone"><span class="milestone-value">8</span><span class="milestone-label">Months</span></div>
+                        <div class="milestone"><span class="milestone-value">95%</span><span class="milestone-label">Growth</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-banner">
+                    <div class="story-avatar">👨‍💻</div>
+                    <div class="story-banner-text">
+                        <h3>Alex: Early Intervention</h3>
+                        <p class="story-location">🇦🇺 Sydney, Australia</p>
+                    </div>
+                </div>
+                <div class="story-body">
+                    <p>29-year-old noticed his hairline receding in his mid-20s. Rather than waiting, he decided to be proactive with 2,000 carefully placed grafts for a highly natural hairline.</p>
+                    <div class="story-milestones">
+                        <div class="milestone"><span class="milestone-value">2,000</span><span class="milestone-label">Grafts</span></div>
+                        <div class="milestone"><span class="milestone-value">6</span><span class="milestone-label">Months</span></div>
+                        <div class="milestone"><span class="milestone-value">97%</span><span class="milestone-label">Growth</span></div>
+                    </div>
+                </div>
+            </div>
+            <div class="story-card">
+                <div class="story-banner">
+                    <div class="story-avatar">🧔</div>
+                    <div class="story-banner-text">
+                        <h3>Robert's Journey from Dubai</h3>
+                        <p class="story-location">🇦🇪 Dubai, UAE</p>
+                    </div>
+                </div>
+                <div class="story-body">
+                    <p>42-year-old entrepreneur had been considering hair transplants for years but was concerned about scarring. When he learned about Barley's microneedle FUE technique, he booked immediately.</p>
+                    <div class="story-milestones">
+                        <div class="milestone"><span class="milestone-value">4,200</span><span class="milestone-label">Grafts</span></div>
+                        <div class="milestone"><span class="milestone-value">10</span><span class="milestone-label">Months</span></div>
+                        <div class="milestone"><span class="milestone-value">96%</span><span class="milestone-label">Growth</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials-section">
+    <div class="container">
+        <h2 class="section-title section-title-white">More Patient Stories</h2>
+        <p class="section-subtitle section-subtitle-light">Hear from more patients who transformed their lives with Barley.</p>
+        
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Initially, I was not sure if I should travel to China but their name was quite renowned. Booked my consultation and I was sold! It felt like they knew what I wanted and went above and beyond to make sure I was satisfied throughout the process."</p>
+                <p class="testimonial-author">— Robert Davis</p>
+                <p class="testimonial-meta">🇺🇸 United States | 3,000 Grafts</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Barley completely changed how my beard looks! I had a rather patchy beard that made me look like a kid. A Beard transplant made it possible for me to have a proper beard for once. This transformation is what I was looking for."</p>
+                <p class="testimonial-author">— Oscar Martinez</p>
+                <p class="testimonial-meta">🇪🇸 Spain | 2,500 Grafts | Beard</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Very professional staff and friendly team, didn't feel any discomfort or unease because they made sure I got what I needed. Good place for hair transplants. The results are even better than I expected."</p>
+                <p class="testimonial-author">— James Wilson</p>
+                <p class="testimonial-meta">🇨🇦 Canada | 2,800 Grafts</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Great service, nice people, and impressive results. Much recommended. I've told all my friends about Barley and several of them have also had procedures done with equally great results."</p>
+                <p class="testimonial-author">— Tim Brown</p>
+                <p class="testimonial-meta">🇳🇿 New Zealand | 2,200 Grafts</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"Recently I had my hair transplant surgery at Barley. Too soon to see the results but the services and staff are top of the mark. Extremely helpful and dedicated people. I enjoyed visiting them. I am sure the end results would be equally great."</p>
+                <p class="testimonial-author">— Daniel Kim</p>
+                <p class="testimonial-meta">🇰🇷 South Korea | 3,200 Grafts</p>
+            </div>
+            <div class="testimonial-card">
+                <div class="testimonial-rating">⭐⭐⭐⭐⭐</div>
+                <p class="testimonial-text">"I was looking for a hair transplant practice and stumbled upon Barley, read great reviews, and saw they are a well-known hospital in China. So I decided to travel all the way there. It was a treat! Not only was I greeted by very friendly English-speaking staff, but I also got a free pick-and-drop and 3-day accommodation."</p>
+                <p class="testimonial-author">— Malcom Foster</p>
+                <p class="testimonial-meta">🇦🇺 Australia | 3,500 Grafts</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="cta-section">
+    <div class="container">
+        <h2>Ready to Write Your Own Success Story?</h2>
+        <p>Join 50,000+ satisfied patients who have regained their confidence with Barley Hair Transplant.</p>
+        <div class="cta-buttons">
+            <a href="../contact-us/" class="btn btn-primary btn-large">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- Free Consultation Section -->
+<section class="contact-consult-section" style="padding: 80px 0; background: linear-gradient(135deg, #f0f4fa 0%, #e8eef8 100%);">
+    <div class="container">
+        <h2 class="section-title" style="margin-bottom: 50px;">Get Your Free Consultation</h2>
+        <div class="contact-three-column" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
+            <div class="contact-form-column" style="display: flex; flex-direction: column; gap: 25px;">
+                <form id="contactForm" class="contact-form" novalidate style="background: #fff; padding: 35px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="font-size: 24px; color: #112341; margin-bottom: 20px;">Get Free Consultation</h3>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <input type="text" id="contactName" name="nickname" placeholder="Your Name *" required style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; transition: border-color 0.3s;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <input type="text" id="contactPhone" name="contact" placeholder="Phone/WeChat/WhatsApp *" required style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; transition: border-color 0.3s;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <select id="contactProject" name="project" title="Please select a service" style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; background: #fff; transition: border-color 0.3s; appearance: auto;">
+<option value="">Select Service *</option>
+<option value="Hairline Transplant">Hairline Transplant</option>
+<option value="Hair Thickening">Hair Thickening</option>
+<option value="Baldness Restoration">Baldness Restoration</option>
+<option value="Eyebrow Transplant">Eyebrow Transplant</option>
+<option value="Beard Transplant">Beard Transplant</option>
+<option value="Sideburns Transplant">Sideburns Transplant</option>
+<option value="Body Hair Transplant">Body Hair Transplant</option>
+<option value="Hair Loss Treatment">Hair Loss Treatment</option>
+<option value="Hair Care">Hair Care</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <textarea id="contactMessage" name="message" placeholder="Your Message (Optional)" rows="4" style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; resize: vertical; min-height: 100px; transition: border-color 0.3s;"></textarea>
+                    </div>
+                    <button type="button" id="contactSubmitBtn" class="btn btn-primary" style="width: 100%; padding: 16px; font-size: 17px; font-weight: 700; border-radius: 10px;">Send Message</button>
+                </form>
+                <div class="about-barley-card" style="background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h4 style="font-size: 20px; color: #112341; margin-bottom: 12px;">About Barley</h4>
+                    <p style="font-size: 15px; line-height: 1.7; color: #666;">Established by a team of doctors with 31 branches in China's major cities, Barley Microneedle Hair Transplant Hospital has always been pursuing advanced technology, better quality and more safety to help you with all kinds of hair loss problems.</p>
+                </div>
+            </div>
+            <div class="contact-info-column" style="display: flex; flex-direction: column; gap: 0;">
+                <div class="contact-info-top" style="background: #164084; padding: 35px; border-radius: 16px 16px 0 0; color: #fff;">
+                    <h3 style="font-size: 22px; color: #fff; margin-bottom: 15px;">You Might Also Want to Know</h3>
+                    <p style="font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.85);">Everyone's hair loss journey and solution are unique due to a variety of factors. Our hair restoration experts will assist you in determining the root cause and the most suitable solution for your hair restoration plan. If you have any questions, please ask; we are happy to assist.</p>
+                </div>
+                <div class="contact-info-bottom" style="border-radius: 0 0 16px 16px; overflow: hidden;">
+                    <img src="../images/test.jpg" alt="Hair Transplant Consultation" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+            </div>
+        </div>
+        <div class="contact-items">
+            <div class="contact-box clickable" onclick="copyToClipboard('15810155700', 'WeChat')">
+                <div class="contact-box-icon"><i class="fab fa-weixin"></i></div>
+                <div class="contact-box-content"><h4>WeChat</h4><p>15810155700</p></div>
+            </div>
+            <div class="contact-box clickable" onclick="copyToClipboard('+86 13730143529', 'WhatsApp')">
+                <div class="contact-box-icon"><i class="fab fa-whatsapp"></i></div>
+                <div class="contact-box-content"><h4>WhatsApp</h4><p>+86 13730143529</p></div>
+            </div>
+            <div class="contact-box clickable" onclick="copyToClipboard('hairtransplant@qq.com', 'Email')">
+                <div class="contact-box-icon"><i class="fas fa-envelope"></i></div>
+                <div class="contact-box-content"><h4>Email</h4><p>hairtransplant@qq.com</p></div>
+            </div>
+            <div class="contact-box qrcode-box">
+                <img src="../images/erweima.jpg" alt="WeChat QR Code">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-nav-horizontal">
+            <div class="footer-nav-group">
+                <h4>About</h4>
+                <a href="../about-us/">About Us</a>
+                <a href="../doctors/">Doctors</a>
+                <a href="../why-barley/">Why Barley</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Services</h4>
+                <a href="../services/">All Services</a>
+                <a href="../hair-transplant/">Hair Transplant</a>
+                <a href="../beard-transplant/">Beard Transplant</a>
+                <a href="../eyebrow-transplant/">Eyebrow Transplant</a>
+                <a href="../scar-hair-transplant/">Scar Treatment</a>
+                <a href="../microneedle-hair-transplant/">Microneedle Hair Transplant</a>
+                <a href="../fue-hair-transplant/">FUE Hair Transplant</a>
+                <a href="../fut-hair-transplant/">FUT Hair Transplant</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Technology</h4>
+                <a href="../technology/">Our Technology</a>
+                <a href="../microneedle-technology/">Microneedle Tech</a>
+                <a href="../fue/">FUE</a>
+                <a href="../fut/">FUT</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Results</h4>
+                <a href="../results/">Gallery</a>
+                <a href="../hair-transplant-results/">Before &amp; After</a>
+                <a href="../beard-transplant-results/">Beard Results</a>
+                <a href="../before-after-eyebrow-transplant/">Eyebrow Results</a>
+                <a href="../hair-transplant-reviews/">Reviews</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Hair Loss</h4>
+                <a href="../hair-loss/">Hair Loss Guide</a>
+                <a href="../is-hair-loss-genetic/">Is Hair Loss Genetic</a>
+                <a href="../does-daily-hair-loss-lead-to-balding/">Daily Hair Loss</a>
+                <a href="../barley-hair-loss-calculator/">Hair Loss Calculator</a>
+                <a href="../blog/">Blog</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Support</h4>
+                <a href="../faq/">FAQ</a>
+                <a href="../hair-transplant-faq/">Hair Transplant FAQ</a>
+                <a href="../hair-transplant-cost/">Cost Guide</a>
+                <a href="../contact-us/">Contact Us</a>
+                <a href="../privacy-policy/">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-locations">
+            <div class="footer-locations-links">
+                <span class="footer-locations-title">Our Locations:</span>
+                <a href="../hair-transplant-in-beijing/">Beijing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shanghai/">Shanghai</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-guangzhou/">Guangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shenzhen/">Shenzhen</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-chengdu/">Chengdu</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-chongqing/">Chongqing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-hangzhou/">Hangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wuhan/">Wuhan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanjing/">Nanjing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-xian/">Xi'an</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-tianjin/">Tianjin</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-suzhou/">Suzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-changsha/">Changsha</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shenyang/">Shenyang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-qingdao/">Qingdao</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-dalian/">Dalian</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-jinan/">Jinan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-harbin/">Harbin</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-zhengzhou/">Zhengzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-kunming/">Kunming</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-fuzhou/">Fuzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanning/">Nanning</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-guiyang/">Guiyang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-taiyuan/">Taiyuan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanchang/">Nanchang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-hefei/">Hefei</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shijiazhuang/">Shijiazhuang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wuxi/">Wuxi</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wenzhou/">Wenzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-foshan/">Foshan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-ningbo/">Ningbo</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nantong/">Nantong</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-taizhou/">Taizhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-yangzhou/">Yangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-china/">All China</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Barley Microneedle Hair Transplant Hospital. All Rights Reserved.</p>
+            <p>Official Website: <a href="https://www.barleyhair.com" style="color:#fff;text-decoration:underline;">www.barleyhair.com</a></p>
+            <p>Barley Microneedle Hair Transplant Hospital is an established hair restoration institution in China, with 31 branches across major cities. We specialize in microneedle hair transplant, FUE, FUT, beard transplant, eyebrow transplant, and scar repair. Our patented microneedle technology ensures higher graft survival rates, natural hairline design, and faster recovery. Thousands of satisfied patients trust Barley for their hair restoration journey.</p>
+        </div>
+    </div>
+</footer>
+<script src="../oldjs/common.js"></script>
+
+<script>
+window.ZF_FORM_CONFIG = {
+    wechat: "15810155700",
+    qrcode: { enable: false, src: "/images/erweima.jpg" },
+    display: {
+        pcFloat: true,
+        mobileMode: "mini"
+    },
+    wechatRow: {
+        enable: false
+    },
+    language: {
+        enable: true,
+        showSwitch: false,
+        default: "en"
+    }
+};
+</script>
+<script src="../sendemail/form2026.js"></script>
+<script src="../oldjs/random-banner.js"></script>
+
+<script>
+!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"LFRd8JuqrLILglAq",ck:"LFRd8JuqrLILglAq"});
+</script>
+<script src="../oldjs/contact-copy.js"></script>
+</body>
+</html>
