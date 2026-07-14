@@ -1,0 +1,865 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FUE Hair Transplant Technology | Barley Hair Restoration</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="https://www.barleyhair.com/fue/">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="Barley Microneedle Hair Transplant Hospital">
+    <meta name="description" content="Advanced FUE hair transplant technology at Barley. Minimally invasive, natural results, faster recovery. Free consultation available.">
+    <meta name="keywords" content="fue hair transplant, fue technology, follicular unit extraction, minimally invasive hair transplant">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="FUE Hair Transplant Technology - Barley">
+    <meta property="og:description" content="Advanced FUE hair transplant technology - minimally invasive with natural results.">
+    <meta property="og:image" content="https://www.barleyhair.com/Beard/Beard-1.jpg">
+    <meta property="og:site_name" content="Barley Hair Transplant Hospital">
+    <link rel="stylesheet" href="../oldcss/style.css">
+    <style>
+        /* FUE Hair Transplant - Natural &amp; Minimal Theme */
+        :root {
+            --primary-color: #0d7c5f;
+            --secondary-color: #0a9e78;
+            --accent-color: #10b981;
+            --text-dark: #1a2e35;
+            --text-light: #5a6c7d;
+            --bg-light: #ecfdf5;
+            --bg-lighter: #f0fdf8;
+        }
+
+        /* Section Headers */
+        .section-header {
+            margin-bottom: 50px;
+            text-align: center;
+        }
+        .section-title {
+            text-align: center;
+            font-size: 42px;
+            margin-bottom: 15px;
+            color: var(--text-dark);
+            position: relative;
+            padding-bottom: 20px;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--accent-color), transparent);
+            border-radius: 2px;
+        }
+        .section-subtitle {
+            text-align: center;
+            color: var(--text-light);
+            font-size: 19px;
+            margin-top: 0;
+            line-height: 1.6;
+        }
+
+        /* Card Grids */
+        .tech-cards-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 40px;
+            margin-top: 40px;
+        }
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        /* Tech Card - Soft Organic Style */
+        .tech-card {
+            background: linear-gradient(180deg, #ffffff 0%, #f8fffe 100%);
+            padding: 50px 30px;
+            border-radius: 28px;
+            border: 1px solid #d1fae5;
+            text-align: center;
+            box-shadow: 
+                0 4px 20px rgba(13, 124, 95, 0.06),
+                0 1px 3px rgba(0, 0, 0, 0.04);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            position: relative;
+        }
+        .tech-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 
+                0 16px 40px rgba(13, 124, 95, 0.12),
+                0 4px 12px rgba(0, 0, 0, 0.06);
+            border-color: var(--accent-color);
+        }
+        .tech-card .icon-circle {
+            width: 140px;
+            height: 140px;
+            margin: 0 auto 30px;
+            background: linear-gradient(135deg, var(--bg-light) 0%, #d1fae5 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 64px;
+            border: 3px solid #a7f3d0;
+            transition: all 0.4s ease;
+            box-shadow: 0 4px 16px rgba(13, 124, 95, 0.1);
+        }
+        .tech-card:hover .icon-circle {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: #fff;
+            border-color: var(--primary-color);
+            transform: rotate(5deg) scale(1.05);
+            box-shadow: 0 8px 24px rgba(13, 124, 95, 0.25);
+        }
+        .tech-card h3 {
+            font-size: 24px;
+            margin-bottom: 18px;
+            color: var(--text-dark);
+        }
+        .tech-card p {
+            font-size: 16px;
+            line-height: 1.7;
+            color: var(--text-light);
+            margin-bottom: 0;
+        }
+
+        /* Tech Icon */
+        .tech-icon {
+            font-size: 72px;
+            margin-bottom: 25px;
+            color: var(--primary-color);
+            filter: drop-shadow(0 2px 4px rgba(13, 124, 95, 0.2));
+        }
+
+        /* Benefit Card - Rounded Pill Style */
+        .benefit-card {
+            background: linear-gradient(180deg, #ffffff 0%, #f8fffe 100%);
+            padding: 40px 25px;
+            border-radius: 24px;
+            border: 1px solid #d1fae5;
+            text-align: center;
+            box-shadow: 
+                0 4px 16px rgba(13, 124, 95, 0.06),
+                0 1px 3px rgba(0, 0, 0, 0.04);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .benefit-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 
+                0 16px 40px rgba(13, 124, 95, 0.12),
+                0 4px 12px rgba(0, 0, 0, 0.06);
+            border-color: var(--accent-color);
+        }
+        .benefit-icon {
+            font-size: 56px;
+            margin-bottom: 20px;
+            filter: drop-shadow(0 2px 4px rgba(13, 124, 95, 0.15));
+        }
+        .benefit-card h3 {
+            font-size: 22px;
+            margin-bottom: 15px;
+            color: var(--text-dark);
+        }
+        .benefit-card p {
+            font-size: 15px;
+            line-height: 1.7;
+            color: var(--text-light);
+            margin-bottom: 0;
+        }
+
+        /* Comparison Table - Clean Style */
+        .comparison-table-wrapper {
+            overflow-x: auto;
+            margin-top: 40px;
+            border-radius: 20px;
+            box-shadow: 
+                0 4px 20px rgba(13, 124, 95, 0.08),
+                0 1px 3px rgba(0, 0, 0, 0.04);
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            background: linear-gradient(180deg, #ffffff 0%, #f8fffe 100%);
+            border-radius: 20px;
+            overflow: hidden;
+        }
+        .comparison-table thead {
+            background: linear-gradient(135deg, var(--bg-light) 0%, #d1fae5 100%);
+        }
+        .comparison-table th {
+            padding: 20px 24px;
+            text-align: left;
+            color: var(--text-dark);
+            border-bottom: 2px solid #a7f3d0;
+            font-weight: 600;
+            font-size: 16px;
+        }
+        .comparison-table th:last-child,
+        .comparison-table td:last-child {
+            text-align: center;
+        }
+        .comparison-table td {
+            padding: 20px 24px;
+            color: var(--text-light);
+            border-bottom: 1px solid #d1fae5;
+            font-size: 15px;
+        }
+        .comparison-table tr:hover td {
+            background: linear-gradient(135deg, #f0fdf8 0%, #ecfdf5 100%);
+        }
+        .comparison-table .highlight {
+            color: var(--primary-color);
+            font-weight: 600;
+            background: rgba(13, 124, 95, 0.05);
+        }
+
+        /* Button Enhancement - Green Theme */
+        .btn-primary {
+            background: linear-gradient(135deg, var(--primary-color) 0%, var(--accent-color) 100%);
+            box-shadow: 
+                0 4px 12px rgba(13, 124, 95, 0.3),
+                0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 
+                0 8px 20px rgba(13, 124, 95, 0.4),
+                0 4px 8px rgba(0, 0, 0, 0.15);
+        }
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .benefits-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .tech-cards-grid, .benefits-grid {
+                grid-template-columns: 1fr;
+            }
+            .section-title {
+                font-size: 32px;
+            }
+            .section-subtitle {
+                font-size: 17px;
+            }
+            .contact-three-column {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* Contact Form Focus */
+        .contact-form input:focus,
+        .contact-form select:focus,
+        .contact-form textarea:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(13, 124, 95, 0.1);
+        }
+
+        /* Full-width content layout for dark-section */
+        .dark-section .container.full-width-layout,
+        .dark-section-alt .container.full-width-layout {
+            display: flex !important;
+            flex-direction: column !important;
+            align-items: center !important;
+            gap: 40px !important;
+            grid-template-columns: none !important;
+        }
+        .dark-section .container.full-width-layout .section-header,
+        .dark-section-alt .container.full-width-layout .section-header {
+            text-align: center;
+            margin-bottom: 20px;
+            width: 100%;
+        }
+        .dark-section .container.full-width-layout img,
+        .dark-section-alt .container.full-width-layout img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 16px;
+            box-shadow: 0 8px 30px rgba(0,0,0,0.1);
+        }
+        .dark-section .container.full-width-layout .content-wrapper,
+        .dark-section-alt .container.full-width-layout .content-wrapper {
+            max-width: 800px;
+            text-align: center;
+        }
+        .dark-section .container.full-width-layout ul,
+        .dark-section-alt .container.full-width-layout ul {
+            text-align: left;
+            display: inline-block;
+            margin: 30px 0;
+        }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalProcedure",
+  "name": "FUE Hair Transplant",
+  "description": "Advanced FUE hair transplant technology at Barley Hospital.",
+  "image": "https://www.barleyhair.com/Beard/Beard-1.jpg",
+  "medicalSpecialty": "Dermatologic",
+  "availableService": {
+    "@type": "MedicalProcedure",
+    "name": "Hair Transplant",
+    "description": "Advanced microneedle hair transplant procedure"
+  }
+}
+</script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="Barley Hair Transplant Hospital">
+                </a>
+                <span class="logo-text">Barley Hair Transplant</span>
+            </div>
+            <nav class="main-nav">
+                <a href="../index.html">Home</a>
+                <a href="../about-us/">About Us</a>
+                <a href="../services/">Services</a>
+                <a href="../technology/">Technology</a>
+                <a href="../doctors/">Doctors</a>
+                <a href="../results/">Results</a>
+                <a href="../faq/">FAQ</a>
+                <a href="../contact-us/">Contact Us</a>
+            </nav>
+            <div class="menu-toggle" onclick="this.parentElement.querySelector('.main-nav').classList.toggle('active')">
+                Menu
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="hero-bg">
+        <img src="../Banner/hero-5.jpg" alt="FUE Hair Transplant Method - Minimally Invasive Technique">
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <h1>FUE Hair Transplant</h1>
+            <p>Follicular Unit Extraction - Minimally invasive hair restoration with natural results, minimal scarring, and fast recovery time.</p>
+            <div class="hero-buttons">
+                <a href="../contact-us/" class="btn btn-primary btn-large">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Technology Overview Section -->
+<section class="services-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">FUE Technology Overview</h2>
+            <p class="section-subtitle">Advanced follicular unit extraction for superior hair restoration results</p>
+        </div>
+        <div class="tech-cards-grid">
+            <div class="tech-card">
+                <div class="tech-icon">🔬</div>
+                <h3>Individual Follicle Extraction</h3>
+                <p>FUE harvests individual hair follicles directly from the donor area, eliminating the need for a linear strip removal and resulting in minimal scarring.</p>
+            </div>
+            <div class="tech-card">
+                <div class="tech-icon">⏱️</div>
+                <h3>Fast Recovery</h3>
+                <p>With tiny incision points and minimally invasive technique, FUE patients experience faster healing and quicker return to normal activities.</p>
+            </div>
+            <div class="tech-card">
+                <div class="tech-icon">✨</div>
+                <h3>Natural Results</h3>
+                <p>Individual follicle placement allows for precise control of hair direction and angle, creating completely natural-looking results.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- What is FUE Section -->
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-title">What is FUE Hair Transplant?</h2>
+        <p class="section-subtitle">Advanced follicular unit extraction for seamless, natural-looking hair restoration</p>
+        <div class="tech-cards-grid">
+            <div class="tech-card">
+                <div class="tech-icon">🔬</div>
+                <h3>Individual Follicle Extraction</h3>
+                <p>FUE harvests individual hair follicles directly from the donor area rather than removing a hair strip, resulting in minimal to no surgical scar and hair restoration that appears seamless and natural.</p>
+            </div>
+            <div class="tech-card">
+                <div class="tech-icon">⏱️</div>
+                <h3>Minimal Downtime</h3>
+                <p>With tiny dot-like incisions instead of a linear scar, FUE patients experience faster healing and can return to work in just 3-7 days. Suitable for all hair types and textures.</p>
+            </div>
+            <div class="tech-card">
+                <div class="tech-icon">✨</div>
+                <h3>Natural Hair Growth</h3>
+                <p>Individual follicle units are extracted and placed in the recipient area for permanent hair regeneration. Natural hair growth patterns ensure results that look completely authentic.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FUE Procedure Section -->
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-title">The FUE Procedure</h2>
+        <p class="section-subtitle">Step-by-step process for natural-looking hair restoration</p>
+        <div class="tech-cards-grid">
+            <div class="tech-card">
+                <div class="tech-icon">💉</div>
+                <h3>Preparation &amp; Anesthesia</h3>
+                <p>Donor area is prepared and local anesthesia administered for a completely comfortable procedure experience.</p>
+            </div>
+            <div class="tech-card">
+                <div class="tech-icon">🔬</div>
+                <h3>Follicle Extraction</h3>
+                <p>Individual follicles extracted with precision punches using state-of-the-art equipment for maximum graft survival.</p>
+            </div>
+            <div class="tech-card">
+                <div class="tech-icon">🎯</div>
+                <h3>Strategic Implantation</h3>
+                <p>Grafts meticulously placed in recipient area. Incision marks barely visible, healing within days. Results visible in 3-6 months.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Barley FUE Advantage -->
+<section class="info-section">
+    <div class="container">
+        <div class="info-section-header">
+            <h2 class="section-title">About FUE Hair Transplant</h2>
+            <p class="section-subtitle">One of the most popular and effective hair restoration methods available today</p>
+        </div>
+        <div class="info-section-layout">
+            <div class="info-section-text">
+                <p>Our FUE differs from traditional FUE in that we combine it with our microneedle technology to maximize the number of grafts. This is beneficial when a client has thin or sparse hair in the donor area.</p>
+                <p>At Barley, all procedures are planned and carried out under the supervision of an experienced doctor, who first consults with the clients to determine the best course of action for the FUE follicle extraction surgery.</p>
+                <ul>
+                    <li>✓ Combined with microneedle implantation technology</li>
+                    <li>✓ Over 200,000 successful procedures performed</li>
+                    <li>✓ 31 hospitals across major Chinese cities</li>
+                    <li>✓ Experienced team of 4-6 professionals per procedure</li>
+                    <li>✓ 10+ national technology patents</li>
+                </ul>
+            </div>
+            <div class="info-section-visual">
+                <img src="../Hospital/Hospital-1.jpg" alt="Barley Hospital">
+                <a href="#contactForm" class="btn btn-primary btn-large">Book a Consultation</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FUE vs Traditional Methods -->
+<section class="services-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">FUE vs Traditional Methods</h2>
+            <p class="section-subtitle">Compare FUE with other hair transplant methods to find the best option for you</p>
+        </div>
+        <div class="comparison-table-wrapper">
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Feature</th>
+                        <th>Traditional FUT</th>
+                        <th>Traditional FUE</th>
+                        <th>Barley Advanced FUE</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Scarring</td>
+                        <td>Linear scar</td>
+                        <td>Small dots</td>
+                        <td class="highlight">Minimal, nearly invisible</td>
+                    </tr>
+                    <tr>
+                        <td>Density</td>
+                        <td>Medium</td>
+                        <td>Medium-High</td>
+                        <td class="highlight">High (up to 60 follicles/cm²)</td>
+                    </tr>
+                    <tr>
+                        <td>Recovery Time</td>
+                        <td>2-4 weeks</td>
+                        <td>1-2 weeks</td>
+                        <td class="highlight">3-7 days</td>
+                    </tr>
+                    <tr>
+                        <td>Pain Level</td>
+                        <td>Moderate</td>
+                        <td>Mild</td>
+                        <td class="highlight">Minimal</td>
+                    </tr>
+                    <tr>
+                        <td>Naturalness</td>
+                        <td>Good</td>
+                        <td>Very Good</td>
+                        <td class="highlight">Excellent</td>
+                    </tr>
+                    <tr>
+                        <td>Graft Survival Rate</td>
+                        <td>90-92%</td>
+                        <td>92-94%</td>
+                        <td class="highlight">95%+</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+
+<!-- Benefits Section -->
+<section class="dark-section-alt">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Benefits of FUE Hair Transplant</h2>
+            <p class="section-subtitle">Discover the advantages of choosing FUE for your hair restoration journey</p>
+        </div>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="benefit-icon">🎯</div>
+                <h3>Natural Results</h3>
+                <p>Individual follicle placement creates hair that looks and grows naturally, matching your existing hair characteristics perfectly.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">⚡</div>
+                <h3>Fast Recovery</h3>
+                <p>Minimally invasive procedure means shorter downtime and faster return to normal activities and work.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">💪</div>
+                <h3>High Success Rate</h3>
+                <p>Over 95% graft survival rate with our advanced techniques and experienced surgical teams.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🔒</div>
+                <h3>Safe &amp; Reliable</h3>
+                <p>FDA-approved methods performed by experienced surgeons with thousands of successful procedures.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">✨</div>
+                <h3>No Linear Scar</h3>
+                <p>Tiny dot-like incisions heal quickly and are virtually undetectable, even with very short hair.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🎨</div>
+                <h3>Customizable Design</h3>
+                <p>Precise control over hairline design, density, and direction for personalized natural results.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🏥</div>
+                <h3>Outpatient Procedure</h3>
+                <p>Performed under local anesthesia, no hospital stay required, walk-in walk-out procedure.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="benefit-icon">🎓</div>
+                <h3>Expert Surgeons</h3>
+                <p>Performed by certified, experienced surgeons with specialized FUE training and expertise.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Before &amp; After Results Section -->
+<section class="results-section" id="results">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title">Before &amp; After Results</h2>
+            <p class="section-subtitle">See the amazing transformations from our FUE hair transplant patients</p>
+        </div>
+        <div class="results-grid">
+            <div class="result-item">
+                <img src="../manHairline/manHairline-2.jpg" alt="FUE Result 1">
+                <div class="result-overlay">
+                    <h4>Hairline Restoration</h4>
+                    <p>3,000 grafts - 6 months post-op</p>
+                </div>
+            </div>
+            <div class="result-item">
+                <img src="../manHairline/manHairline-3.jpg" alt="FUE Result 2">
+                <div class="result-overlay">
+                    <h4>Frontal Hairline</h4>
+                    <p>2,500 grafts - 8 months post-op</p>
+                </div>
+            </div>
+            <div class="result-item">
+                <img src="../manBald/manBald-2.jpg" alt="FUE Result 3">
+                <div class="result-overlay">
+                    <h4>Crown Restoration</h4>
+                    <p>3,500 grafts - 9 months post-op</p>
+                </div>
+            </div>
+            <div class="result-item">
+                <img src="../manHairline/manHairline-4.jpg" alt="FUE Result 4">
+                <div class="result-overlay">
+                    <h4>Full Head Restoration</h4>
+                    <p>4,000 grafts - 12 months post-op</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials-section">
+    <div class="container">
+        <div class="section-header">
+            <h2 class="section-title" style="color: #fff;">What Our Patients Say</h2>
+            <p class="section-subtitle" style="color: rgba(255,255,255,0.8);">Real stories from real people who transformed their lives with FUE</p>
+        </div>
+        <div class="testimonials-grid">
+            <div class="testimonial-card">
+                <p class="testimonial-text">"I was facing severe hair loss and receding hairline for a while and someone recommended I go for a hair transplant procedure. I decided to consult a Barley expert and they were really keen on helping me. I went for the FUE procedure with the confidence that I was in good hands. Barley didn't disappoint! Everything went smoothly from consultation to surgery and post-surgery. Highly recommend Barley as they truly care about their clients."</p>
+                <p class="testimonial-author">- Liam, 34, Marketing Manager</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"Recently I had my FUE hair transplant surgery at Barley. Too soon to see the full results but the services and staff are top of the mark. Extremely helpful and dedicated people. I enjoyed visiting them. The procedure was virtually painless and the recovery was much faster than I expected. I'm sure the end results will be equally great."</p>
+                <p class="testimonial-author">- Daniel, 29, Software Engineer</p>
+            </div>
+            <div class="testimonial-card">
+                <p class="testimonial-text">"I am a different man after my FUE hair transplant surgery. Barley doctors are magicians. The results are completely natural and nobody can tell I've had a transplant. My confidence has skyrocketed and I feel 10 years younger. The whole team was professional and caring throughout the entire process. Worth every penny!"</p>
+                <p class="testimonial-author">- David, 42, Business Owner</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <h2>Ready to Transform Your Hair?</h2>
+        <p>Schedule a free consultation and discover how FUE hair transplant can help you regain your confidence</p>
+        <div class="cta-buttons">
+            <a href="../contact-us/" class="btn btn-primary btn-large">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- Free Consultation Section -->
+<section class="contact-consult-section" style="padding: 80px 0; background: linear-gradient(135deg, #f0f4fa 0%, #e8eef8 100%);">
+    <div class="container">
+        <h2 class="section-title" style="margin-bottom: 50px;">Get Your Free Consultation</h2>
+        <div class="contact-three-column" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
+            <div class="contact-form-column" style="display: flex; flex-direction: column; gap: 25px;">
+                <form id="contactForm" class="contact-form" novalidate style="background: #fff; padding: 35px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="font-size: 24px; color: #112341; margin-bottom: 20px;">Get Free Consultation</h3>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <input type="text" id="contactName" name="nickname" placeholder="Your Name *" required style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; transition: border-color 0.3s;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <input type="text" id="contactPhone" name="contact" placeholder="Phone/WeChat/WhatsApp *" required style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; transition: border-color 0.3s;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <select id="contactProject" name="project" title="Please select a service" style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; background: #fff; transition: border-color 0.3s; appearance: auto;">
+<option value="">Select Service *</option>
+<option value="Hairline Transplant">Hairline Transplant</option>
+<option value="Hair Thickening">Hair Thickening</option>
+<option value="Baldness Restoration">Baldness Restoration</option>
+<option value="Eyebrow Transplant">Eyebrow Transplant</option>
+<option value="Beard Transplant">Beard Transplant</option>
+<option value="Sideburns Transplant">Sideburns Transplant</option>
+<option value="Body Hair Transplant">Body Hair Transplant</option>
+<option value="Hair Loss Treatment">Hair Loss Treatment</option>
+<option value="Hair Care">Hair Care</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <textarea id="contactMessage" name="message" placeholder="Your Message (Optional)" rows="4" style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; resize: vertical; min-height: 100px; transition: border-color 0.3s;"></textarea>
+                    </div>
+                    <button type="button" id="contactSubmitBtn" class="btn btn-primary" style="width: 100%; padding: 16px; font-size: 17px; font-weight: 700; border-radius: 10px;">Send Message</button>
+                </form>
+                <div class="about-barley-card" style="background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h4 style="font-size: 20px; color: #112341; margin-bottom: 12px;">About Barley</h4>
+                    <p style="font-size: 15px; line-height: 1.7; color: #666;">Established by a team of doctors with 31 branches in China's major cities, Barley Microneedle Hair Transplant Hospital has always been pursuing the best technology, better quality and more safety to help you with all kinds of hair loss problems.</p>
+                </div>
+            </div>
+            <div class="contact-info-column" style="display: flex; flex-direction: column; gap: 0;">
+                <div class="contact-info-top" style="background: #164084; padding: 35px; border-radius: 16px 16px 0 0; color: #fff;">
+                    <h3 style="font-size: 22px; color: #fff; margin-bottom: 15px;">You Might Also Want to Know</h3>
+                    <p style="font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.85);">Everyone's hair loss journey and solution are unique due to a variety of factors. Our hair restoration experts will assist you in determining the root cause and the best solution for your hair restoration plan. If you have any questions, please ask; we are happy to assist.</p>
+                </div>
+                <div class="contact-info-bottom" style="border-radius: 0 0 16px 16px; overflow: hidden;">
+                    <img src="../images/test.jpg" alt="Hair Transplant Consultation" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Items -->
+        <div class="contact-items">
+            <div class="contact-box clickable" onclick="copyToClipboard('15810155700', 'WeChat')">
+                <div class="contact-box-icon">
+                    <i class="fab fa-weixin"></i>
+                </div>
+                <div class="contact-box-content">
+                    <h4>WeChat</h4>
+                    <p>15810155700</p>
+                </div>
+            </div>
+            <div class="contact-box clickable" onclick="copyToClipboard('+86 13730143529', 'WhatsApp')">
+                <div class="contact-box-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-box-content">
+                    <h4>WhatsApp</h4>
+                    <p>+86 13730143529</p>
+                </div>
+            </div>
+            <div class="contact-box clickable" onclick="copyToClipboard('hairtransplant@qq.com', 'Email')">
+                <div class="contact-box-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-box-content">
+                    <h4>Email</h4>
+                    <p>hairtransplant@qq.com</p>
+                </div>
+            </div>
+            <div class="contact-box qrcode-box">
+                <img src="../images/erweima.jpg" alt="WeChat QR Code">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <div class="footer-nav-horizontal">
+            <div class="footer-nav-group">
+                <h4>About</h4>
+                <a href="../about-us/">About Us</a>
+                <a href="../doctors/">Doctors</a>
+                <a href="../why-barley/">Why Barley</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Services</h4>
+                <a href="../services/">All Services</a>
+                <a href="../hair-transplant/">Hair Transplant</a>
+                <a href="../beard-transplant/">Beard Transplant</a>
+                <a href="../eyebrow-transplant/">Eyebrow Transplant</a>
+                <a href="../scar-hair-transplant/">Scar Treatment</a>
+                <a href="../microneedle-hair-transplant/">Microneedle Hair Transplant</a>
+                <a href="../fue-hair-transplant/">FUE Hair Transplant</a>
+                <a href="../fut-hair-transplant/">FUT Hair Transplant</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Technology</h4>
+                <a href="../technology/">Our Technology</a>
+                <a href="../microneedle-technology/">Microneedle Tech</a>
+                <a href="../fue/">FUE</a>
+                <a href="../fut/">FUT</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Results</h4>
+                <a href="../results/">Gallery</a>
+                <a href="../hair-transplant-results/">Before &amp; After</a>
+                <a href="../beard-transplant-results/">Beard Results</a>
+                <a href="../before-after-eyebrow-transplant/">Eyebrow Results</a>
+                <a href="../hair-transplant-reviews/">Reviews</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Hair Loss</h4>
+                <a href="../hair-loss/">Hair Loss Guide</a>
+                <a href="../is-hair-loss-genetic/">Is Hair Loss Genetic</a>
+                <a href="../does-daily-hair-loss-lead-to-balding/">Daily Hair Loss</a>
+                <a href="../barley-hair-loss-calculator/">Hair Loss Calculator</a>
+                <a href="../blog/">Blog</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Support</h4>
+                <a href="../faq/">FAQ</a>
+                <a href="../hair-transplant-faq/">Hair Transplant FAQ</a>
+                <a href="../hair-transplant-cost/">Cost Guide</a>
+                <a href="../contact-us/">Contact Us</a>
+                <a href="../privacy-policy/">Privacy Policy</a>
+            </div>
+        </div>
+        <div class="footer-locations">
+            <div class="footer-locations-links">
+                <span class="footer-locations-title">Our Locations:</span>
+                <a href="../hair-transplant-in-beijing/">Beijing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shanghai/">Shanghai</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-guangzhou/">Guangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shenzhen/">Shenzhen</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-chengdu/">Chengdu</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-chongqing/">Chongqing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-hangzhou/">Hangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wuhan/">Wuhan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanjing/">Nanjing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-xian/">Xi'an</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-tianjin/">Tianjin</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-suzhou/">Suzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-changsha/">Changsha</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shenyang/">Shenyang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-qingdao/">Qingdao</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-dalian/">Dalian</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-jinan/">Jinan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-harbin/">Harbin</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-zhengzhou/">Zhengzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-kunming/">Kunming</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-fuzhou/">Fuzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanning/">Nanning</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-guiyang/">Guiyang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-taiyuan/">Taiyuan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanchang/">Nanchang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-hefei/">Hefei</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shijiazhuang/">Shijiazhuang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wuxi/">Wuxi</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wenzhou/">Wenzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-foshan/">Foshan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-ningbo/">Ningbo</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nantong/">Nantong</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-taizhou/">Taizhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-yangzhou/">Yangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-china/">All China</a>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <p>&copy; 2026 Barley Microneedle Hair Transplant Hospital. All Rights Reserved.</p>
+            <p>Official Website: <a href="https://www.barleyhair.com" style="color:#fff;text-decoration:underline;">www.barleyhair.com</a></p>
+            <p>Barley Microneedle Hair Transplant Hospital is a leading hair restoration institution in China, with 31 branches across major cities. We specialize in microneedle hair transplant, FUE, FUT, beard transplant, eyebrow transplant, and scar repair. Our patented microneedle technology ensures higher graft survival rates, natural hairline design, and faster recovery. Thousands of satisfied patients trust Barley for their hair restoration journey.</p>
+        </div>
+    </div>
+</footer>
+<script src="../oldjs/common.js"></script>
+
+<script>
+window.ZF_FORM_CONFIG = {
+    wechat: "15810155700",
+    qrcode: { enable: false, src: "/images/erweima.jpg" },
+    display: {
+        pcFloat: true,
+        mobileMode: "mini"
+    },
+    wechatRow: {
+        enable: false
+    },
+    language: {
+        enable: true,
+        showSwitch: false,
+        default: "en"
+    }
+};
+</script>
+<script src="../sendemail/form2026.js"></script>
+<script src="../oldjs/random-banner.js"></script>
+
+<script>
+!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"LFRd8JuqrLILglAq",ck:"LFRd8JuqrLILglAq"});
+</script>
+<script src="../oldjs/contact-copy.js"></script>
+</body>
+</html>

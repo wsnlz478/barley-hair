@@ -1,0 +1,898 @@
+﻿<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frequently Asked Questions | Barley Hair Transplant</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="https://www.barleyhair.com/faq/">
+    <meta name="robots" content="index, follow, max-image-preview:large">
+    <meta name="author" content="Barley Microneedle Hair Transplant Hospital">
+    <meta name="description" content="Get answers to common questions about hair transplant procedures, recovery, costs, and results at Barley Microneedle Hair Transplant Hospital.">
+    <meta name="keywords" content="hair transplant faq, hair restoration questions, hair transplant answers, hair transplant cost, hair transplant recovery">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Frequently Asked Questions - Barley Hair Transplant">
+    <meta property="og:description" content="Get answers to common questions about hair transplant procedures, recovery, costs, and results.">
+    <meta property="og:image" content="https://www.barleyhair.com/women/women-2.jpg">
+    <meta property="og:site_name" content="Barley Hair Transplant Hospital">
+    <link rel="stylesheet" href="../oldcss/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+    .faq-cat-wrapper {
+        margin: 0 0 40px 0;
+    }
+    .faq-cat-list {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .faq-cat-btn {
+        padding: 18px 40px;
+        background: #fff;
+        border: 2px solid #e0e8f5;
+        border-radius: 12px;
+        font-size: 16px;
+        font-weight: 600;
+        color: #555;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.06), 0 1px 4px rgba(0,0,0,0.04);
+    }
+    .faq-cat-btn:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 12px 28px rgba(22, 64, 132, 0.18), 0 4px 12px rgba(22, 64, 132, 0.08);
+        border-color: #164084;
+        color: #164084;
+    }
+    .faq-cat-btn.active {
+        background: linear-gradient(135deg, #164084 0%, #1e5bb8 100%);
+        border-color: #164084;
+        color: #fff;
+        box-shadow: 0 8px 24px rgba(22, 64, 132, 0.28), 0 2px 8px rgba(22, 64, 132, 0.12);
+    }
+    .faq-list {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .services-section .section-title {
+        margin-bottom: 40px;
+    }
+    .faq-item {
+        background: #fff;
+        border-radius: 14px;
+        margin-bottom: 16px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        border: 1px solid #e8eef8;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.06), 0 1px 4px rgba(0,0,0,0.04);
+    }
+    .faq-item:hover {
+        box-shadow: 0 12px 32px rgba(22, 64, 132, 0.12), 0 4px 12px rgba(0,0,0,0.06);
+        border-color: #c5d5ee;
+        transform: translateY(-8px);
+    }
+    .faq-item.active {
+        border-color: #164084;
+        box-shadow: 0 12px 36px rgba(22, 64, 132, 0.15), 0 4px 14px rgba(22, 64, 132, 0.08);
+    }
+    .faq-question {
+        padding: 22px 28px;
+        cursor: pointer;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 17px;
+        font-weight: 600;
+        color: #1a2a4a;
+        transition: all 0.3s ease;
+        background: transparent;
+        border: none;
+        width: 100%;
+        text-align: left;
+        gap: 20px;
+    }
+    .faq-question:hover {
+        background: #f5f8fd;
+        color: #164084;
+    }
+    .faq-item.active .faq-question {
+        background: linear-gradient(135deg, #f5f8fd 0%, #eef3fc 100%);
+        color: #164084;
+    }
+    .faq-question::after {
+        content: '+';
+        flex-shrink: 0;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 22px;
+        font-weight: 400;
+        color: #164084;
+        background: #e8eef8;
+        border-radius: 50%;
+        transition: all 0.3s ease;
+    }
+    .faq-item.active .faq-question::after {
+        content: '−';
+        background: linear-gradient(135deg, #164084 0%, #1e5bb8 100%);
+        color: #fff;
+        transform: rotate(180deg);
+    }
+    .faq-answer {
+        padding: 0 28px;
+        max-height: 0;
+        overflow: hidden;
+        transition: all 0.35s ease;
+    }
+    .faq-item.active .faq-answer {
+        padding: 0 28px 24px;
+        max-height: 500px;
+    }
+    .faq-answer p {
+        font-size: 15.5px;
+        line-height: 1.85;
+        color: #5a6b8a;
+        margin: 0;
+    }
+    .back-to-top {
+        position: fixed;
+        bottom: 30px;
+        right: 30px;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background: linear-gradient(135deg, #164084 0%, #1e5bb8 100%);
+        color: #fff;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        box-shadow: 0 4px 15px rgba(22,64,132,0.35), 0 2px 6px rgba(0,0,0,0.1);
+        transition: all 0.3s;
+        z-index: 9999;
+    }
+    .back-to-top:hover {
+        background: linear-gradient(135deg, #1e5bb8 0%, #2a6fd0 100%);
+        transform: translateY(-6px);
+        box-shadow: 0 10px 25px rgba(22,64,132,0.45), 0 4px 10px rgba(0,0,0,0.12);
+    }
+    @media (max-width: 1024px) {
+        .contact-three-column { grid-template-columns: 1fr !important; }
+    }
+    @media (max-width: 768px) {
+        .contact-three-column { grid-template-columns: 1fr !important; }
+        .faq-cat-btn { padding: 14px 28px; font-size: 15px; }
+        .faq-question { padding: 18px 20px; font-size: 16px; }
+        .faq-answer p { font-size: 14.5px; }
+    }
+    @media (max-width: 480px) {
+        .faq-cat-btn { padding: 12px 20px; font-size: 14px; }
+        .faq-question { padding: 16px 18px; font-size: 15px; gap: 12px; }
+        .faq-question::after { width: 28px; height: 28px; font-size: 18px; }
+    }
+
+    /* Contact Items */
+    .contact-items {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+        margin-top: 50px;
+    }
+    .contact-box {
+        background: #164084;
+        border-radius: 12px;
+        padding: 25px;
+        text-align: center;
+        cursor: pointer;
+        aspect-ratio: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact-box-icon {
+        margin-bottom: 15px;
+    }
+    .contact-box-icon i {
+        font-size: 56px;
+        color: #fff;
+    }
+    .contact-box-content h4 {
+        font-size: 22px;
+        color: #fff;
+        margin: 0 0 8px 0;
+        font-weight: 600;
+    }
+    .contact-box-content p {
+        font-size: 18px;
+        color: rgba(255,255,255,0.85);
+        margin: 0;
+    }
+    .contact-box.qrcode-box {
+        cursor: default;
+    }
+    .contact-box.qrcode-box img {
+        width: 85%;
+        max-width: 180px;
+        height: auto;
+        border-radius: 8px;
+    }
+    @media (max-width: 768px) {
+        .contact-items { grid-template-columns: repeat(2, 1fr); }
+    }
+    </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "MedicalOrganization",
+  "name": "Barley Microneedle Hair Transplant Hospital",
+  "alternateName": "Barley Hair Transplant",
+  "url": "https://www.barleyhair.com",
+  "logo": "https://www.barleyhair.com/images/logo.png",
+  "description": "China's professional hair transplant hospital with 31 branches nationwide, specializing in microneedle hair transplant technology. Over 100 expert doctors, 14 national patents, 10000+ successful procedures.",
+  "foundingDate": "2014",
+  "image": "https://www.barleyhair.com/women/women-2.jpg",
+  "telephone": "+86-13730143529",
+  "email": "hairtransplant@qq.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Multiple Locations",
+    "addressLocality": "Beijing, Shanghai, Guangzhou, Shenzhen, Chengdu",
+    "addressCountry": "CN"
+  },
+  "medicalSpecialty": "Dermatologic",
+  "aggregateRating": {
+    "@type": "AggregateRating",
+    "ratingValue": "4.9",
+    "reviewCount": "10000"
+  }
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.barleyhair.com/"},
+    {"@type": "ListItem", "position": 2, "name": "FAQ", "item": "https://www.barleyhair.com/faq/"}
+  ]
+}
+</script>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    <div class="main-header">
+        <div class="container">
+            <div class="logo">
+                <a href="../index.html">
+                    <img src="../images/logo.png" alt="Barley Hair Transplant Hospital">
+                </a>
+                <span class="logo-text">Barley Hair Transplant</span>
+            </div>
+            <nav class="main-nav">
+                <a href="../index.html">Home</a>
+                <a href="../about-us/">About Us</a>
+                <a href="../services/">Services</a>
+                <a href="../technology/">Technology</a>
+                <a href="../doctors/">Doctors</a>
+                <a href="../results/">Results</a>
+                <a href="../faq/">FAQ</a>
+                <a href="../contact-us/">Contact Us</a>
+            </nav>
+            <div class="menu-toggle" onclick="this.parentElement.querySelector('.main-nav').classList.toggle('active')">
+                Menu
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Hero Section -->
+<section class="hero-section">
+    <div class="hero-bg">
+        <img src="../Banner/hero-7.jpg" alt="Frequently Asked Questions About Hair Transplant">
+    </div>
+    <div class="container">
+        <div class="hero-content">
+            <h1>Frequently Asked Questions</h1>
+            <p>Get answers to frequently asked questions about hair transplantation.</p>
+            <div class="hero-buttons">
+                <a href="../contact-us/" class="btn btn-primary btn-large">Contact Us</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+<section class="services-section">
+    <div class="container">
+        <h2 class="section-title">Frequently Asked Questions</h2>
+        <div class="faq-cat-wrapper">
+            <div class="faq-cat-list">
+                <button class="faq-cat-btn active" data-category="all">All</button>
+                <button class="faq-cat-btn" data-category="procedure">Procedure</button>
+                <button class="faq-cat-btn" data-category="cost">Cost</button>
+                <button class="faq-cat-btn" data-category="recovery">Recovery</button>
+                <button class="faq-cat-btn" data-category="results">Results</button>
+                <button class="faq-cat-btn" data-category="general">General</button>
+            </div>
+        </div>
+        <div class="faq-list">
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">What is hair transplantation?</button>
+                <div class="faq-answer">
+                    <p>Hair transplantation is a surgical procedure that moves hair follicles from one part of the body (donor area) to a bald or thinning area (recipient area). The transplanted hair continues to grow naturally in its new location.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">How long does the procedure take?</button>
+                <div class="faq-answer">
+                    <p>The duration varies depending on the number of grafts being transplanted. Typically, a hair transplant procedure takes between 4-8 hours. Larger cases may require a second session.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">Is hair transplantation painful?</button>
+                <div class="faq-answer">
+                    <p>The procedure is performed under local anesthesia, so you should not feel pain during the surgery. Some mild discomfort or soreness may be experienced during the recovery period, which can be managed with medication.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">What is the difference between FUT and FUE?</button>
+                <div class="faq-answer">
+                    <p>FUT (Follicular Unit Transplantation) involves removing a strip of skin from the donor area, while FUE (Follicular Unit Extraction) extracts individual follicles. Barley uses advanced microneedle FUE for minimal scarring and natural results.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">What is microneedle hair transplant?</button>
+                <div class="faq-answer">
+                    <p>Microneedle hair transplant uses a specially designed 0.6-0.8mm implant pen to place follicles directly into the scalp. This technique creates smaller incisions, reduces recovery time, and provides more natural directional control compared to traditional methods.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">Can I choose the hairline design?</button>
+                <div class="faq-answer">
+                    <p>Yes, our doctors work closely with you to design a personalized hairline that matches your facial features, age, and preferences. We use advanced imaging technology to preview the expected results before the procedure.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">Do I need to shave my head before the procedure?</button>
+                <div class="faq-answer">
+                    <p>For the donor area at the back of the scalp, we typically trim the hair short for better visibility and precision. The recipient area can often be done without full shaving depending on your existing hair length and the technique used. Our doctors will advise you during the consultation.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">Can I listen to music or watch videos during surgery?</button>
+                <div class="faq-answer">
+                    <p>Absolutely! Since the procedure is done under local anesthesia and you remain awake, many patients choose to listen to music, watch movies, or even take naps during the surgery. We provide a comfortable environment with entertainment options to make your experience as pleasant as possible.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">What is the consultation process like?</button>
+                <div class="faq-answer">
+                    <p>During your free consultation, our doctor will examine your scalp, assess your hair loss stage, discuss your goals, and recommend a personalized treatment plan. We'll also explain the procedure in detail, show before/after photos, and answer all your questions.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="procedure">
+                <button class="faq-question">Can the procedure be done in a single day?</button>
+                <div class="faq-answer">
+                    <p>Yes, the majority of hair transplant procedures are completed in a single day. Depending on the number of grafts needed, the procedure typically takes 4-8 hours. You'll arrive in the morning and be able to go home the same day after the procedure is complete.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">How much does a hair transplant cost?</button>
+                <div class="faq-answer">
+                    <p>The cost varies depending on the number of grafts, the technique used, and other factors. On average, hair transplant costs range from $3,000 to $10,000. Contact us for a free consultation and personalized quote.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">Are there any additional costs?</button>
+                <div class="faq-answer">
+                    <p>Our comprehensive package includes pre-operative consultations, the surgery itself, post-operative care, and follow-up appointments. Additional costs may apply for medications or special treatments.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">Do you offer payment plans?</button>
+                <div class="faq-answer">
+                    <p>Yes, we offer flexible payment plans to make hair transplantation more affordable. Our team can discuss financing options during your consultation.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">Is hair transplant covered by insurance?</button>
+                <div class="faq-answer">
+                    <p>Hair transplantation is generally considered a cosmetic procedure and is not covered by the majority of insurance plans. However, we recommend checking with your insurance provider for specific coverage details.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">How is the cost calculated?</button>
+                <div class="faq-answer">
+                    <p>Cost is primarily based on the number of grafts needed. Other factors include the technique (FUE vs FUT), the area being treated, and any additional services. We provide transparent pricing during your consultation.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">Is the consultation really free?</button>
+                <div class="faq-answer">
+                    <p>Yes, the initial consultation is completely free. There's no obligation to proceed with treatment. We believe in providing honest assessments so you can make an informed decision about your hair restoration journey.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">Are there any package deals or promotions?</button>
+                <div class="faq-answer">
+                    <p>Barley periodically offers special packages and promotional pricing. We also provide discounted rates for larger transplant sessions. Contact us to learn about current offers and find a suitable pricing option for your needs.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">What payment methods do you accept?</button>
+                <div class="faq-answer">
+                    <p>We accept various payment methods including credit cards, bank transfers, and cash. For patients who need it, we also offer flexible installment payment plans to make the procedure more affordable.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="cost">
+                <button class="faq-question">Do you offer a results assurance?</button>
+                <div class="faq-answer">
+                    <p>Barley stands behind the quality of our work. Our 95%+ graft survival rate and 98% patient satisfaction rate speak for themselves. During your consultation, we'll provide honest expectations about your expected results. We also offer follow-up care to ensure a quality outcome.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">How long is the recovery period?</button>
+                <div class="faq-answer">
+                    <p>Many patients can return to work within 3-7 days after the procedure. The initial healing period is about 2 weeks, during which you may experience some swelling and scabbing. Full recovery takes about 6-12 months as the transplanted hair grows in.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">What should I expect during recovery?</button>
+                <div class="faq-answer">
+                    <p>After the surgery, you'll have some swelling and redness in the recipient area. Scabs will form and fall off within 1-2 weeks. You'll need to avoid strenuous activities, swimming, and direct sunlight for a few weeks.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">When will I see results?</button>
+                <div class="faq-answer">
+                    <p>You'll start to see new hair growth around 3-4 months after the procedure. The hair will continue to grow and thicken over the next 6-12 months. Full results are typically visible at 12 months.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">Can I wash my hair after the procedure?</button>
+                <div class="faq-answer">
+                    <p>You can wash your hair 2-3 days after the surgery, following our specific washing instructions. It's important to be gentle and avoid scratching the scalp during the healing process.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">When can I exercise again?</button>
+                <div class="faq-answer">
+                    <p>Light walking can be resumed after 3 days. We recommend avoiding strenuous exercise, heavy lifting, and sports for at least 2 weeks. Your doctor will provide specific guidance based on your procedure.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">Will there be scarring?</button>
+                <div class="faq-answer">
+                    <p>With our advanced microneedle FUE technique, scarring is minimal. The tiny 0.6-0.8mm incisions heal quickly and are virtually undetectable once fully healed. The donor area at the back of the scalp also heals with minimal visible scarring.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">When can I wear a hat or helmet?</button>
+                <div class="faq-answer">
+                    <p>We recommend waiting at least 1 week before wearing a loose-fitting hat. For helmets or tight headgear, wait at least 2-3 weeks to avoid placing pressure on the transplanted area. Your doctor will advise you based on your specific healing progress.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">What medications will I need after surgery?</button>
+                <div class="faq-answer">
+                    <p>After the procedure, we typically prescribe antibiotics to prevent infection and pain medication for any discomfort. We may also recommend topical treatments and supplements to support healing and hair growth. All medications will be explained during your post-operative consultation.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="recovery">
+                <button class="faq-question">What is shock loss and is it normal?</button>
+                <div class="faq-answer">
+                    <p>Shock loss refers to temporary shedding of existing hair near the transplant area, which can occur 2-6 weeks after surgery. This is a normal physiological response and the hair will grow back. The transplanted follicles themselves are not affected and will begin growing new hair at around 3-4 months.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">Are the results long-lasting?</button>
+                <div class="faq-answer">
+                    <p>Yes, the transplanted hair is long-lasting because it comes from the back of the scalp where hair follicles are resistant to DHT, the hormone responsible for hair loss. The transplanted hair will continue to grow naturally.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">Will the results look natural?</button>
+                <div class="faq-answer">
+                    <p>Our advanced microneedle technique ensures natural-looking results. We carefully design the hairline to match your facial features and transplant hair in the correct direction and angle for a seamless appearance.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">How many grafts do I need?</button>
+                <div class="faq-answer">
+                    <p>The number of grafts needed depends on the size of the area being treated and the desired density. During your consultation, our doctors will evaluate your hair loss and recommend the appropriate number of grafts.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">Can I have multiple procedures?</button>
+                <div class="faq-answer">
+                    <p>Yes, many patients choose to have multiple procedures to achieve fuller results or to address additional areas of hair loss. Our team can discuss this option during your consultation.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">What is the success rate of hair transplants?</button>
+                <div class="faq-answer">
+                    <p>With our advanced microneedle technique, graft survival rate exceeds 95%. The success depends on proper surgical technique, graft handling, and post-operative care. Our 98% patient satisfaction rate reflects our commitment to quality results.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">Can I style my hair normally after transplant?</button>
+                <div class="faq-answer">
+                    <p>Absolutely! Once your transplanted hair has fully grown in (around 6-12 months), you can style it just like your natural hair — cut it, blow-dry it, and even use hair products. The transplanted hair behaves exactly like your own hair because it is your own hair.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">Will the transplanted hair turn gray?</button>
+                <div class="faq-answer">
+                    <p>The transplanted hair retains the characteristics of the donor hair, including its natural aging process. If your donor hair at the back of your scalp is your natural hair color, the transplanted hair will be the same color and will gray naturally along with the rest of your hair over time.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">Can I dye or perm my transplanted hair?</button>
+                <div class="faq-answer">
+                    <p>Yes, once the transplanted hair has fully grown in, you can dye, perm, or treat it just like your natural hair. We recommend waiting at least 6 months before any chemical treatments to ensure the follicles are fully established and healthy.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="results">
+                <button class="faq-question">What if my existing hair continues to thin?</button>
+                <div class="faq-answer">
+                    <p>Hair transplantation addresses the balding areas, but it doesn't prevent future hair loss in other areas. Many patients combine transplant surgery with medical treatments like finasteride or minoxidil to slow down further hair loss. We can discuss a comprehensive plan during your consultation.</p>
+                </div>
+            </div>
+
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">Who is a good candidate for hair transplantation?</button>
+                <div class="faq-answer">
+                    <p>Good candidates have sufficient donor hair in the back of the scalp, realistic expectations, and are in good overall health. Both men and women can be candidates for hair transplantation.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">Can women get hair transplants?</button>
+                <div class="faq-answer">
+                    <p>Yes, women can and do get hair transplants. However, female hair loss patterns are different from male patterns, so our doctors use specialized techniques for female patients.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">How do I choose a hair transplant clinic?</button>
+                <div class="faq-answer">
+                    <p>When choosing a clinic, consider the doctor's experience, the technology used, patient reviews, before/after photos, and the overall reputation of the clinic. Barley has over 500,000 successful procedures and a 98% patient satisfaction rate.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">What is the success rate?</button>
+                <div class="faq-answer">
+                    <p>Our success rate is over 95% for graft survival, and 98% of our patients are satisfied with their results. The key factors for success include the skill of the surgeon, the quality of the grafts, and proper post-operative care.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">Is the procedure safe?</button>
+                <div class="faq-answer">
+                    <p>Hair transplantation is a safe, minimally invasive procedure when performed by qualified medical professionals. Barley follows strict safety protocols, and our hospitals are equipped with state-of-the-art sterile operating rooms.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">What causes hair loss?</button>
+                <div class="faq-answer">
+                    <p>The frequently common cause is androgenetic alopecia (pattern baldness), which is genetic. Other causes include hormonal changes, stress, medical conditions, medications, and nutritional deficiencies. A consultation can help determine your specific cause.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">Why should I choose Barley Hair Transplant?</button>
+                <div class="faq-answer">
+                    <p>Barley is a professional hair transplant hospital with over 500,000 successful procedures and 31 branches across China. We pioneer microneedle hair transplant technology, hold 14 registered patents, and maintain a 98% patient satisfaction rate. Our medical team includes experienced directors and specialized physicians dedicated to natural, safe results.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">How many branches does Barley have?</button>
+                <div class="faq-answer">
+                    <p>Barley Microneedle Hair Transplant Hospital has 31 branches in major cities across China, including Shanghai, Beijing, Shenzhen, Guangzhou, Hangzhou, Chengdu, and more. This extensive network ensures patients can access our quality services conveniently.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">Are Barley doctors certified and experienced?</button>
+                <div class="faq-answer">
+                    <p>Absolutely. All Barley physicians are licensed medical professionals with extensive training in hair transplantation. Our medical directors have 18-30+ years of surgical experience, and our transplant physicians are specialists in microneedle techniques. We maintain strict standards for medical quality and safety.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">What makes Barley's microneedle technique special?</button>
+                <div class="faq-answer">
+                    <p>Barley's proprietary microneedle technique uses a 0.6-0.8mm implant pen for precise follicle placement. This results in smaller incisions, faster recovery, 95%+ graft survival rate, and more natural hair direction. We hold 14 patents in hair transplant technology, demonstrating our commitment to innovation.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">Can I get an online consultation?</button>
+                <div class="faq-answer">
+                    <p>Yes, Barley offers free online consultations via video call. You can upload photos of your scalp, and our doctors will assess your condition and recommend a treatment plan. Contact us via WeChat or email to schedule your online consultation.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">How many hair transplant procedures has Barley done?</button>
+                <div class="faq-answer">
+                    <p>Barley has performed over 500,000 successful hair transplant procedures since its founding. This extensive experience, combined with our advanced technology and skilled medical teams, ensures consistently high-quality results for our patients.</p>
+                </div>
+            </div>
+            <div class="faq-item" data-faq-category="general">
+                <button class="faq-question">Does Barley offer after-sales service and follow-up?</button>
+                <div class="faq-answer">
+                    <p>Yes, Barley provides comprehensive post-operative care and long-term follow-up. We schedule multiple follow-up appointments to monitor your progress, and our medical team is always available to answer questions. We're committed to supporting you throughout your entire hair restoration journey.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <h2>Still Have Questions?</h2>
+        <p>Contact us for a free consultation with one of our expert doctors. We're here to answer all your questions.</p>
+        <div class="cta-buttons">
+            <a href="../contact-us/" class="btn btn-primary btn-large">Contact Us</a>
+        </div>
+    </div>
+</section>
+
+<!-- Free Consultation Section -->
+<section class="contact-consult-section" style="padding: 80px 0; background: linear-gradient(135deg, #f0f4fa 0%, #e8eef8 100%);">
+    <div class="container">
+        <h2 class="section-title" style="margin-bottom: 50px;">Get Your Free Consultation</h2>
+        <div class="contact-three-column" style="display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: start;">
+            <div class="contact-form-column" style="display: flex; flex-direction: column; gap: 25px;">
+                <form id="contactForm" class="contact-form" novalidate style="background: #fff; padding: 35px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h3 style="font-size: 24px; color: #112341; margin-bottom: 20px;">Get Free Consultation</h3>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <input type="text" id="contactName" name="nickname" placeholder="Your Name *" required style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; transition: border-color 0.3s;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <input type="text" id="contactPhone" name="contact" placeholder="Phone/WeChat/WhatsApp *" required style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; transition: border-color 0.3s;">
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <select id="contactProject" name="project" title="Please select a service" style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; background: #fff; transition: border-color 0.3s; appearance: auto;">
+<option value="">Select Service *</option>
+<option value="Hairline Transplant">Hairline Transplant</option>
+<option value="Hair Thickening">Hair Thickening</option>
+<option value="Baldness Restoration">Baldness Restoration</option>
+<option value="Eyebrow Transplant">Eyebrow Transplant</option>
+<option value="Beard Transplant">Beard Transplant</option>
+<option value="Sideburns Transplant">Sideburns Transplant</option>
+<option value="Body Hair Transplant">Body Hair Transplant</option>
+<option value="Hair Loss Treatment">Hair Loss Treatment</option>
+<option value="Hair Care">Hair Care</option>
+                        </select>
+                    </div>
+                    <div class="form-group" style="margin-bottom: 16px;">
+                        <textarea id="contactMessage" name="message" placeholder="Your Message (Optional)" rows="4" style="width: 100%; padding: 14px 16px; border: 1px solid #ddd; border-radius: 10px; font-size: 15px; resize: vertical; min-height: 100px; transition: border-color 0.3s;"></textarea>
+                    </div>
+                    <button type="button" id="contactSubmitBtn" class="btn btn-primary" style="width: 100%; padding: 16px; font-size: 17px; font-weight: 700; border-radius: 10px;">Send Message</button>
+                </form>
+                <div class="about-barley-card" style="background: #fff; padding: 30px; border-radius: 16px; box-shadow: 0 4px 20px rgba(0,0,0,0.08);">
+                    <h4 style="font-size: 20px; color: #112341; margin-bottom: 12px;">About Barley</h4>
+                    <p style="font-size: 15px; line-height: 1.7; color: #666;">Established by a team of doctors with 31 branches in China's major cities, Barley Microneedle Hair Transplant Hospital has always been pursuing advanced technology, better quality and more safety to help you with all kinds of hair loss problems.</p>
+                </div>
+            </div>
+            <div class="contact-info-column" style="display: flex; flex-direction: column; gap: 0;">
+                <div class="contact-info-top" style="background: #164084; padding: 35px; border-radius: 16px 16px 0 0; color: #fff;">
+                    <h3 style="font-size: 22px; color: #fff; margin-bottom: 15px;">You Might Also Want to Know</h3>
+                    <p style="font-size: 15px; line-height: 1.7; color: rgba(255,255,255,0.85);">Everyone's hair loss journey and solution are unique due to a variety of factors. Our hair restoration experts will assist you in determining the root cause and a suitable solution for your hair restoration plan. If you have any questions, please ask; we are happy to assist.</p>
+                </div>
+                <div class="contact-info-bottom" style="border-radius: 0 0 16px 16px; overflow: hidden;">
+                    <img src="../images/test.jpg" alt="Hair Transplant Consultation" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Items -->
+        <div class="contact-items">
+            <div class="contact-box clickable" onclick="copyToClipboard('15810155700', 'WeChat')">
+                <div class="contact-box-icon">
+                    <i class="fab fa-weixin"></i>
+                </div>
+                <div class="contact-box-content">
+                    <h4>WeChat</h4>
+                    <p>15810155700</p>
+                </div>
+            </div>
+            <div class="contact-box clickable" onclick="copyToClipboard('+86 13730143529', 'WhatsApp')">
+                <div class="contact-box-icon">
+                    <i class="fab fa-whatsapp"></i>
+                </div>
+                <div class="contact-box-content">
+                    <h4>WhatsApp</h4>
+                    <p>+86 13730143529</p>
+                </div>
+            </div>
+            <div class="contact-box clickable" onclick="copyToClipboard('hairtransplant@qq.com', 'Email')">
+                <div class="contact-box-icon">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="contact-box-content">
+                    <h4>Email</h4>
+                    <p>hairtransplant@qq.com</p>
+                </div>
+            </div>
+            <div class="contact-box qrcode-box">
+                <img src="../images/erweima.jpg" alt="WeChat QR Code">
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="site-footer">
+    <div class="container">
+        <!-- Footer Nav - Horizontal Categories -->
+        <div class="footer-nav-horizontal">
+            <div class="footer-nav-group">
+                <h4>About</h4>
+                <a href="../about-us/">About Us</a>
+                <a href="../doctors/">Doctors</a>
+                <a href="../why-barley/">Why Barley</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Services</h4>
+                <a href="../services/">All Services</a>
+                <a href="../hair-transplant/">Hair Transplant</a>
+                <a href="../beard-transplant/">Beard Transplant</a>
+                <a href="../eyebrow-transplant/">Eyebrow Transplant</a>
+                <a href="../scar-hair-transplant/">Scar Treatment</a>
+                <a href="../microneedle-hair-transplant/">Microneedle Hair Transplant</a>
+                <a href="../fue-hair-transplant/">FUE Hair Transplant</a>
+                <a href="../fut-hair-transplant/">FUT Hair Transplant</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Technology</h4>
+                <a href="../technology/">Our Technology</a>
+                <a href="../microneedle-technology/">Microneedle Tech</a>
+                <a href="../fue/">FUE</a>
+                <a href="../fut/">FUT</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Results</h4>
+                <a href="../results/">Gallery</a>
+                <a href="../hair-transplant-results/">Before &amp; After</a>
+                <a href="../beard-transplant-results/">Beard Results</a>
+                <a href="../before-after-eyebrow-transplant/">Eyebrow Results</a>
+                <a href="../hair-transplant-reviews/">Reviews</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Hair Loss</h4>
+                <a href="../hair-loss/">Hair Loss Guide</a>
+                <a href="../is-hair-loss-genetic/">Is Hair Loss Genetic</a>
+                <a href="../does-daily-hair-loss-lead-to-balding/">Daily Hair Loss</a>
+                <a href="../barley-hair-loss-calculator/">Hair Loss Calculator</a>
+                <a href="../blog/">Blog</a>
+            </div>
+            <div class="footer-nav-group">
+                <h4>Support</h4>
+                <a href="../faq/">FAQ</a>
+                <a href="../hair-transplant-faq/">Hair Transplant FAQ</a>
+                <a href="../hair-transplant-cost/">Cost Guide</a>
+                <a href="../contact-us/">Contact Us</a>
+                <a href="../privacy-policy/">Privacy Policy</a>
+            </div>
+        </div>
+        <!-- Locations - Friend Links Style -->
+        <div class="footer-locations">
+            <div class="footer-locations-links">
+                <span class="footer-locations-title">Our Locations:</span>
+                <a href="../hair-transplant-in-beijing/">Beijing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shanghai/">Shanghai</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-guangzhou/">Guangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shenzhen/">Shenzhen</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-chengdu/">Chengdu</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-chongqing/">Chongqing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-hangzhou/">Hangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wuhan/">Wuhan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanjing/">Nanjing</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-xian/">Xi'an</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-tianjin/">Tianjin</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-suzhou/">Suzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-changsha/">Changsha</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shenyang/">Shenyang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-qingdao/">Qingdao</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-dalian/">Dalian</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-jinan/">Jinan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-harbin/">Harbin</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-zhengzhou/">Zhengzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-kunming/">Kunming</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-fuzhou/">Fuzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanning/">Nanning</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-guiyang/">Guiyang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-taiyuan/">Taiyuan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nanchang/">Nanchang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-hefei/">Hefei</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-shijiazhuang/">Shijiazhuang</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wuxi/">Wuxi</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-wenzhou/">Wenzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-foshan/">Foshan</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-ningbo/">Ningbo</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-nantong/">Nantong</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-taizhou/">Taizhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-yangzhou/">Yangzhou</a><span class="footer-locations-divider">|</span>
+                <a href="../hair-transplant-in-china/">All China</a>
+            </div>
+        </div>
+        <!-- Footer Bottom -->
+        <div class="footer-copyright">
+            <p>&copy; 2026 Barley Microneedle Hair Transplant Hospital. All Rights Reserved.</p>
+            <p>Official Website: <a href="https://www.barleyhair.com" style="color:#fff;text-decoration:underline;">www.barleyhair.com</a></p>
+            <p>Barley Microneedle Hair Transplant Hospital is a professional hair restoration institution in China, with 31 branches across major cities. We specialize in microneedle hair transplant, FUE, FUT, beard transplant, eyebrow transplant, and scar repair. Our patented microneedle technology ensures higher graft survival rates, natural hairline design, and faster recovery. Thousands of satisfied patients trust Barley for their hair restoration journey.</p>
+        </div>
+    </div>
+</footer>
+<button class="back-to-top" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+<script src="../oldjs/common.js"></script>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var faqItems = document.querySelectorAll('.faq-item');
+    faqItems.forEach(function(item) {
+        var question = item.querySelector('.faq-question');
+        question.addEventListener('click', function() {
+            var isActive = item.classList.contains('active');
+            faqItems.forEach(function(i) {
+                i.classList.remove('active');
+            });
+            if (!isActive) {
+                item.classList.add('active');
+            }
+        });
+    });
+
+    var catBtns = document.querySelectorAll('.faq-cat-btn');
+    catBtns.forEach(function(btn) {
+        btn.addEventListener('click', function() {
+            var category = btn.getAttribute('data-category');
+            catBtns.forEach(function(b) {
+                b.classList.remove('active');
+            });
+            btn.classList.add('active');
+
+            faqItems.forEach(function(item) {
+                var itemCat = item.getAttribute('data-faq-category');
+                if (category === 'all' || itemCat === category) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        });
+    });
+});
+</script>
+
+<script>
+window.ZF_FORM_CONFIG = {
+    wechat: "15810155700",
+    qrcode: { enable: false, src: "/images/erweima.jpg" },
+    display: {
+        pcFloat: true,
+        mobileMode: "mini"
+    },
+    wechatRow: {
+        enable: false
+    },
+    language: {
+        enable: true,
+        showSwitch: false,
+        default: "en"
+    }
+};
+</script>
+<script src="../sendemail/form2026.js"></script>
+<script src="../oldjs/random-banner.js"></script>
+
+<script>
+!function(p){"use strict";!function(t){var s=window,e=document,i=p,c="".concat("https:"===e.location.protocol?"https://":"http://","sdk.51.la/js-sdk-pro.min.js"),n=e.createElement("script"),r=e.getElementsByTagName("script")[0];n.type="text/javascript",n.setAttribute("charset","UTF-8"),n.async=!0,n.src=c,n.id="LA_COLLECT",i.d=n;var o=function(){s.LA.ids.push(i)};s.LA?s.LA.ids&&o():(s.LA=p,s.LA.ids=[],o()),r.parentNode.insertBefore(n,r)}()}({id:"LFRd8JuqrLILglAq",ck:"LFRd8JuqrLILglAq"});
+</script>
+<script src="../oldjs/contact-copy.js"></script>
+</body>
+</html>
