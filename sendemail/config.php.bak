@@ -7,9 +7,9 @@
 // MySQL 数据库配置
 // 优先使用环境变量，如果未设置则使用默认值（开发环境）
 define('DB_HOST', getenv('DB_HOST') ?: 'localhost');
-define('DB_NAME', getenv('DB_NAME') ?: 'www_barleyhair_c');
-define('DB_USER', getenv('DB_USER') ?: 'www_barleyhair_c');
-define('DB_PASS', getenv('DB_PASSWORD') ?: 'RsHatxNBbQA72WKs'); // 生产环境建议设置环境变量
+define('DB_NAME', getenv('DB_NAME') ?: 'test_nsnm_com_cn');
+define('DB_USER', getenv('DB_USER') ?: 'test_nsnm_com_cn');
+define('DB_PASS', getenv('DB_PASSWORD') ?: '8JcrMJDcaXFrt6sH'); // 生产环境建议设置环境变量
 define('DB_CHARSET', 'utf8mb4');
 
 // 获取数据库连接

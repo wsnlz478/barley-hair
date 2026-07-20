@@ -333,14 +333,6 @@ p {
     border-radius: 8px;
 }
 
-.qrcode-label {
-    color: #fff;
-    font-size: 16px;
-    font-weight: 600;
-    margin-top: 10px;
-    text-align: center;
-}
-
 /* Responsive */
 @media (max-width: 992px) {
     h1 { font-size: 36px; }
@@ -455,28 +447,19 @@ p {
         grid-template-columns: repeat(2, 1fr) !important;
         gap: 10px !important;
         margin-top: 30px !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        overflow-x: hidden !important;
     }
     .contact-box {
         padding: 15px 8px !important;
         border-radius: 10px !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        box-sizing: border-box !important;
-        overflow: hidden !important;
     }
     .contact-box-icon i {
         font-size: 36px !important;
     }
     .contact-box-content h4 {
         font-size: 16px !important;
-        word-break: break-word !important;
     }
     .contact-box-content p {
         font-size: 13px !important;
-        word-break: break-all !important;
     }
 
     .photo-item img {
@@ -531,42 +514,18 @@ p {
         font-size: 14px;
         white-space: nowrap;
     }
-    .logo a {
+    .logo-text {
+        font-size: 18px;
+        white-space: nowrap;
+    }
+    .logo img {
         display: none;
     }
-    .logo {
-        display: flex;
-        align-items: center;
-        gap: 0;
-    }
-    .logo-text {
-        font-size: 16px;
-        font-weight: 700;
-        color: #164084;
-        line-height: 1;
-        margin: 0;
-    }
-    .menu-toggle {
-        font-size: 15px;
-        font-weight: 600;
-        padding: 0;
-        background: transparent;
-        color: #164084;
-        margin-left: auto;
-        cursor: pointer;
-        line-height: 1;
-    }
-
-    .main-header {
-        padding: 4px 0;
-    }
-    .main-header .container {
-        padding: 0 15px;
-    }
+    
     .container {
         padding: 0 15px;
     }
-
+    
     /* Hide footer navigation and locations on mobile */
     .footer-nav-horizontal,
     .footer-locations {
@@ -2503,82 +2462,7 @@ body {
 
 /* 9. Contact three column layout on mobile */
 @media (max-width: 768px) {
-    .contact-consult-section {
-        padding: 50px 0 !important;
-    }
-    
-    .contact-consult-section .section-title {
-        font-size: 28px !important;
-        margin-bottom: 30px !important;
-        text-align: center !important;
-    }
-    
     .contact-three-column {
         grid-template-columns: 1fr !important;
-        gap: 25px !important;
-    }
-    
-    .contact-form-column {
-        order: 2;
-        gap: 20px !important;
-    }
-    
-    .contact-info-column {
-        order: 1;
-    }
-    
-    .contact-form {
-        padding: 25px 20px !important;
-    }
-    
-    .contact-form h3 {
-        font-size: 22px !important;
-        margin-bottom: 20px !important;
-    }
-    
-    .contact-info-top {
-        padding: 25px 20px !important;
-        border-radius: 12px !important;
-    }
-    
-    .contact-info-top h3 {
-        font-size: 20px !important;
-        margin-bottom: 15px !important;
-    }
-    
-    .contact-info-top p {
-        font-size: 15px !important;
-    }
-    
-    .contact-items {
-        grid-template-columns: repeat(2, 1fr) !important;
-        gap: 15px !important;
-        margin-top: 25px !important;
-    }
-    
-    .contact-box {
-        padding: 20px 15px !important;
-        min-height: 140px !important;
-    }
-    
-    .contact-box-icon i {
-        font-size: 40px !important;
-    }
-    
-    .contact-box-content h4 {
-        font-size: 18px !important;
-    }
-    
-    .contact-box-content p {
-        font-size: 14px !important;
-    }
-    
-    .contact-box.qrcode-box img {
-        max-width: 120px !important;
-    }
-    
-    .qrcode-label {
-        font-size: 14px !important;
-        margin-top: 8px !important;
     }
 }

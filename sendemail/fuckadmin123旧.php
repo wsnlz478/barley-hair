@@ -359,15 +359,11 @@ if (isset($_GET['export']) && $_GET['export'] === 'excel') {
 }
 
 // 时间范围过滤
-$filter = isset($_GET['filter']) ? $_GET['filter'] : 'today_yesterday';
+$filter = isset($_GET['filter']) ? $_GET['filter'] : 'today';
 $startDate = '';
 $endDate = '';
 
 switch ($filter) {
-    case 'today_yesterday':
-        $startDate = date('Y-m-d 00:00:00', strtotime('-1 day'));
-        $endDate = date('Y-m-d 23:59:59');
-        break;
     case 'today':
         $startDate = date('Y-m-d 00:00:00');
         $endDate = date('Y-m-d 23:59:59');
@@ -752,7 +748,7 @@ function getMonthPrediction($db) {
         .table-card .card-header h3 { font-size: 15px; font-weight: 600; color: #fff; display: flex; align-items: center; gap: 8px; text-shadow: 0 0 10px rgba(0, 255, 255, 0.3); }
         .table-card .card-header h3::before { content: ''; width: 3px; height: 16px; background: linear-gradient(180deg, #00ffff, #7b61ff); border-radius: 2px; box-shadow: 0 0 8px #00ffff; }
         .table-card .card-header .count { font-size: 12px; color: rgba(0, 255, 255, 0.8); background: rgba(0, 255, 255, 0.1); padding: 2px 10px; border-radius: 10px; border: 1px solid rgba(0, 255, 255, 0.2); }
-        .table-card .card-body { }
+        .table-card .card-body { max-height: 520px; overflow-y: auto; }
 
         table { width: 100%; border-collapse: collapse; }
         th { background: rgba(0, 255, 255, 0.05); color: rgba(0, 255, 255, 0.8); padding: 10px 14px; text-align: left; font-weight: 600; font-size: 12px; border-bottom: 1px solid rgba(0, 255, 255, 0.1); position: sticky; top: 0; z-index: 1; text-transform: uppercase; letter-spacing: 1px; }
@@ -826,7 +822,6 @@ function getMonthPrediction($db) {
             <h1>数据看板</h1>
             <div class="header-right">
                 <div class="filter-pills">
-                    <a href="?filter=today_yesterday" <?php echo $filter === 'today_yesterday' ? 'class="active"' : ''; ?>>今天+昨天</a>
                     <a href="?filter=today" <?php echo $filter === 'today' ? 'class="active"' : ''; ?>>今天</a>
                     <a href="?filter=yesterday" <?php echo $filter === 'yesterday' ? 'class="active"' : ''; ?>>昨天</a>
                     <a href="?filter=this_week" <?php echo $filter === 'this_week' ? 'class="active"' : ''; ?>>本周</a>
@@ -892,7 +887,6 @@ function getMonthPrediction($db) {
                                     <th>留言内容</th>
                                     <th>来源页面</th>
                                     <th>提交时间</th>
-                                    <th>提交IP</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -911,7 +905,6 @@ function getMonthPrediction($db) {
                                             <?php endif; ?>
                                         </td>
                                         <td><?php echo htmlspecialchars(substr($record['created_at'], 5, 11)); ?></td>
-                                        <td><?php echo htmlspecialchars($record['user_ip'] ?: '-'); ?></td>
                                     </tr>
                                 <?php endforeach; ?>
                             </tbody>
